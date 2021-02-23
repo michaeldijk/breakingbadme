@@ -23,6 +23,22 @@ h3 {
     text-align: center;
 }
 
+.btnDarkstyle {
+    color: #fff;
+    background-color: #1D1D1A;
+    border-color: #DFD4C5;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
+}
+
+.btn:hover {
+    color: #DFD4C5;
+}
+
 /* ==================== Navigation styling */
 .navbar-nav {
     text-align: right;
@@ -37,7 +53,11 @@ h3 {
 
 a {
     color: #DFD4C5;
+}
 
+a:hover {
+    color: #DFD4C5;
+    text-shadow: 2px 2px 2px #999999;
 }
 
 .navbar-brand {
@@ -81,10 +101,10 @@ a {
     height: 350px;
     width: 100%;
     object-fit: contain;
-    top: 0;
 }
 
 /* ==================== Footer Section Styling */
 .footerStyling {
     text-align: center;
+    background-color: rgb(24, 45, 35);
 }
