@@ -9,6 +9,15 @@ Made by Michael Dyk, (c) 2021, as milestone #2 for Code Institute
     height: 30vh;
 }
 
+/* Character section / part styling */
+.characterImageParagraph {
+    text-align: center;
+}
+
+.characterImage {
+    border-radius: 50%;
+}
+
 /* ==================== Footer Section Styling */
 .footerStyling {
     text-align: center;
