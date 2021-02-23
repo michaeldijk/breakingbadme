@@ -9,10 +9,9 @@ Made by Michael Dyk, (c) 2021, as milestone #2 for Code Institute
 
 /* ==================== Main section, header image */
 .mainImageRow {
-    height: 30vh;
-    background: url(../images/mainHeaderDarkTheme.jpg);
+    height: 80vh;
+    background: url(../images/mainHeaderDarkTheme.jpg) 521px 0;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 /* Character section / part styling */
