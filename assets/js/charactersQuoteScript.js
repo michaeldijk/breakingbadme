@@ -31,8 +31,8 @@ function showQuotes() {
         randomQuotes = quotesArray[randomIndex];
         quotesJsInsert.innerHTML = "";
         quotesJsInsert.insertAdjacentHTML("afterbegin", `
-        <h5 class="card-title">${randomQuotes.author}</h5>
-        <p class="card-text"><b>Occupation: </b>${randomQuotes.quote}</p>`);
+        <p>${randomQuotes.quote}</p>
+        <h4>${randomQuotes.author}</h4>`);
     } else {
         alert("There is a problem with Random Quotes... Please send me an email so I can fix it...");
     }
@@ -44,11 +44,11 @@ function showCharacter() {
         randomIndex = Math.floor(Math.random() * charactersArray.length) - 1;
         randomCharacter = charactersArray[randomIndex];
         charactersJsInsert.innerHTML = "";
-        charactersJsInsert.insertAdjacentHTML("afterbegin", `
-        <h5 class="card-title">${randomCharacter.name}</h5>
-        <p class="card-text"><b>Occupation: </b>${randomCharacter.occupation}</p>
-        <p class="card-text"><b>Nickname: </b>${randomCharacter.nickname}</p>
-        <p class="card-text"><b>Portrayed by: </b>${randomCharacter.portrayed}</p>`);
+        charactersJsInsert.insertAdjacentHTML("afterbegin",
+            `<h4>${randomCharacter.name}</h4>
+        <p>Occupation: ${randomCharacter.occupation}</p>
+        <p>Nickname: ${randomCharacter.nickname}</p>
+        <p>Portrayed by: ${randomCharacter.portrayed}</p>`);
         document.getElementById("characterImage").src = randomCharacter.img;
     } else {
         alert("There is a problem with Random Characters... Please send me an email so I can fix it...");
