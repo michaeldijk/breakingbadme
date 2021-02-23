@@ -21,7 +21,7 @@
 <body onLoad="loadQoutes(); loadChars()">
     <!-- Start of header section (Navbar etc.) -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">breakingBadMe</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -52,11 +52,20 @@
         <div class="container-fluid">
             <div class="row bg-secondary mainImageRow">
                 <div class="col-12">
-                    <p>main image on top comes here</p>
+                    <!-- Empty column for now, as this is a placeholder for the main section header image. -->
+                </div>
+            </div>
+            <div class="row justify-content-center align-content-center mainSectionRow">
+                <div class="col-11 mainSectionIntroductionCol">
+                    <h1>Welcome to breakingBadMe...</h1>
+                    <p>This site aims to bring you some insights in the different BB Characters, random Quotes, and
+                        other great insights in the series.</p>
+                    <p>If I have missed anything, please do contact me through the contact page... I hope you enjoy the
+                        site!</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 bg-success">
+                <div class="col-12">
                     <div class="card">
                         <div class="card-header">
                             Random Character
@@ -65,7 +74,8 @@
                             width="200px" height="auto">
                         <div class="card-body">
                             <div class="div" id="charactersJsInsert">
-                                <p>Click button below, to get information about a random Character from the show...</p>
+                                <p>Click button below, to get information about a random Character from the
+                                    show...</p>
                             </div>
                             <a href="#" class="btn btn-primary" onclick="showCharacter()">Click
                                 here, for another Character</a>
@@ -85,7 +95,8 @@
                             <div id="quotesJsInsert">
                                 <p>Click button below, to get a random quote from the show...</p>
                             </div>
-                            <a href="#" class="btn btn-primary" onclick="showQuotes()">Click here, for another Quote
+                            <a href="#" class="btn btn-primary" onclick="showQuotes()">Click here, for another
+                                Quote
                             </a>
                         </div>
                     </div>

@@ -34,6 +34,10 @@ body {
     color: #DFD4C5;
 }
 
+a {
+    color: #DFD4C5;
+
+}
 
 /* ==================== Main section, header image */
 .mainImageRow {
@@ -42,9 +46,15 @@ body {
     background-size: cover;
 }
 
-.mainSectionIntroduction {
+.mainSectionRow {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.mainSectionIntroductionCol {
     background-color: rgb(24, 45, 35, 0.7);
     border-radius: 25px;
+    padding: 15px 15px 0px 15px;
 }
 
 /* Character section / part styling */
