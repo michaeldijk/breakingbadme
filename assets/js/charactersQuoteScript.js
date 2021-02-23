@@ -9,7 +9,6 @@ function loadQoutes() {
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
             quotesArray = JSON.parse(this.responseText);
-            console.log("current qoutes", quotesArray);
         }
     };
 }
@@ -21,7 +20,6 @@ function loadChars() {
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
             charactersArray = JSON.parse(this.responseText);
-            console.log("current chars", charactersArray);
         }
     };
 }
@@ -34,8 +32,6 @@ function showQuotes() {
         quotesJsInsert.insertAdjacentHTML("afterbegin", `
         <h5 class="card-title">${randomQuotes.author}</h5>
         <p class="card-text"><b>Occupation: </b>${randomQuotes.quote}</p>`);
-        console.log(quotesArray);
-        e.preventDefault();
     } else {
         alert("There is a problem with Random Quotes... Please send me an email so I can fix it...");
     }
@@ -52,7 +48,6 @@ function showCharacter() {
         <p class="card-text"><b>Nickname: </b>${randomCharacter.nickname}</p>
         <p class="card-text"><b>Portrayed by: </b>${randomCharacter.portrayed}</p>`);
         document.getElementById("characterImage").src = randomCharacter.img;
-        console.log(charactersArray);
     } else {
         alert("There is a problem with Random Characters... Please send me an email so I can fix it...");
     }
