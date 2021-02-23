@@ -2,7 +2,10 @@
 Made by Michael Dyk, (c) 2021, as milestone #2 for Code Institute
 */
 
-
+/* ==================== Navigation styling */
+.navbar-nav {
+    text-align: right;
+}
 
 /* ==================== Main section, header image */
 .mainImageRow {
