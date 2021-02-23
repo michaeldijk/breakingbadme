@@ -25,6 +25,7 @@ function loadChars() {
 }
 
 function showQuotes() {
+    event.preventDefault();
     if (quotesArray.length > 0) {
         randomIndex = Math.floor(Math.random() * quotesArray.length) - 1;
         randomQuotes = quotesArray[randomIndex];
@@ -38,6 +39,7 @@ function showQuotes() {
 };
 
 function showCharacter() {
+    event.preventDefault();
     if (charactersArray.length > 0) {
         randomIndex = Math.floor(Math.random() * charactersArray.length) - 1;
         randomCharacter = charactersArray[randomIndex];
