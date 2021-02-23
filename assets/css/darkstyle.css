@@ -6,11 +6,8 @@ Made by Michael Dyk, (c) 2021, as milestone #2 for Code Institute
 @import url('https://fonts.googleapis.com/css2?family=Copse&family=Work+Sans:wght@300;600&display=swap');
 
 
-/* Font styling, select following:
-Quotes: Copse
-All others: Work Sans */
-/* font-family: 'Copse', serif; - only for quotes
-font-family: 'Work Sans', sans-serif; - 600 for menu's links - 300 for remainder of texts.*/
+/* font-family: 'Copse', serif; - for headers / navigation, and text that needs to be more visible.
+font-family: 'Work Sans', sans-serif; - 300 for texts.*/
 
 /* ==================== General */
 body {
@@ -21,11 +18,15 @@ body {
     color: #DFD4C5;
 }
 
+h3 {
+    font-family: 'Copse', serif;
+    text-align: center;
+}
+
 /* ==================== Navigation styling */
 .navbar-nav {
     text-align: right;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
+    font-family: 'Copse', serif;
     color: #DFD4C5;
 }
 
@@ -37,6 +38,20 @@ body {
 a {
     color: #DFD4C5;
 
+}
+
+.navbar-brand {
+    font-family: 'Copse', serif;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.navbarIcon {
+    color: #DFD4C5;
 }
 
 /* ==================== Main section, header image */
