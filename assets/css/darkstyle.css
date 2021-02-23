@@ -63,7 +63,10 @@ a {
 }
 
 .characterImage {
-    border-radius: 50%;
+    height: 350px;
+    width: 100%;
+    object-fit: contain;
+    top: 0;
 }
 
 /* ==================== Footer Section Styling */
