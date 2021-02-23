@@ -1,5 +1,15 @@
-/* This is the dark-theme of the site */
+/* This is the dark-theme of breakingBadMe 
+Made by Michael Dyk, (c) 2021, as milestone #2 for Code Institute
+*/
 
+
+
+/* ==================== Main section, header image */
 .mainImageRow {
     height: 30vh;
+}
+
+/* ==================== Footer Section Styling */
+.footerStyling {
+    text-align: center;
 }
