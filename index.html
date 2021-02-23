@@ -18,7 +18,7 @@
     <title>breakingBadMe!</title>
 </head>
 
-<body>
+<body onLoad="loadQoutes(); loadChars()">
     <!-- Start of header section (Navbar etc.) -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-warning">
@@ -80,10 +80,11 @@
                         </div>
                         <img src="https://via.placeholder.com/200" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Name Of Character</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
-                            </p>
-                            <a href="#" class="btn btn-primary">Click here, for another Character</a>
+                            <div id="quotesJsInsert">
+                                <p>Click button below, to get a random quote from the show...</p>
+                            </div>
+                            <a href="#" class="btn btn-primary" onclick="showQuotes()">Click here, for another Quote
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -94,9 +95,10 @@
 
     <!-- Start of footer section -->
     <footer>
-        <div class="row bg-secondary">
+        <div class=" row bg-secondary">
             <div class="col-12 footerStyling">
-                <p>Made with <i class="fas fa-heart"></i> & <i class="fas fa-coffee"></i> in Cork, Ireland</p>
+                <p>Made with <i class="fas fa-heart"></i> & <i class="fas fa-coffee"></i> in Cork,
+                    Ireland</p>
                 <p><i class="fab fa-github"></i> <i class="fab fa-twitter"></i><i class="fas fa-dog"></i></p>
             </div>
         </div>
@@ -104,7 +106,8 @@
     <!-- End of footer section -->
 
     <!-- JavaScript to do some magical things.. For now just script.js as maybe I will divide it in multiple to keep code clean -->
-    <script src="assets/js/script.js"></script>
+    <!-- <script src="assets/js/charactersScript.js"></script> -->
+    <script src="assets/js/charactersQuoteScript.js"></script>
 
     <!-- Bootstrap scripts, popper.js / boostrap.min.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
