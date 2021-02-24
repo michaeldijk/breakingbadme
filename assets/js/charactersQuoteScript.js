@@ -93,8 +93,10 @@ function charactersDropdownSelection(value) {
             charactersJsInsert.innerHTML = "";
             charactersJsInsert.insertAdjacentHTML("afterbegin",
                 `<h4>${charactersArray[i].name}</h4>
-        <p>Occupation: ${charactersArray[i].occupation}</p>
-        <p>Nickname: ${charactersArray[i].nickname}</p>
+                <p>Nickname: ${charactersArray[i].nickname}</p>
+                <p>Birthday: ${charactersArray[i].birthday}</p>
+        <p>Dead or Alive: ${charactersArray[i].status}</p>
+        <p>Appeared in seasons: ${charactersArray[i].appearance}</p>
         <p>Portrayed by: ${charactersArray[i].portrayed}</p>`);
             document.getElementById("characterImage").src = charactersArray[i].img;
         }
