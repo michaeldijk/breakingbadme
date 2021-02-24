@@ -34,8 +34,10 @@ function showQuotes() {
         randomQuotes = quotesArray[randomIndex];
         quotesJsInsert.innerHTML = "";
         quotesJsInsert.insertAdjacentHTML("afterbegin", `
-        <p>${randomQuotes.quote}</p>
-        <h4>${randomQuotes.author}</h4>`);
+        <blockquote class="blockquote">
+  <p class="mb-0">${randomQuotes.quote}</p>
+  <footer class="blockquote-footer">${randomQuotes.author}</footer>
+</blockquote>`);
     } else {
         alert("There is a problem with Random Quotes... Please send me an email so I can fix it...");
     }
