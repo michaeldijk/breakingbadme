@@ -61,12 +61,32 @@
             </div>
             <!-- Start main body content -->
             <div class="row justify-content-center align-content-center mainSectionRow">
-                <div class="col-10 col-md-6 mainSectionIntroductionCol">
+                <div class="col-10 col-md-6 mainSectionIntroductionCol text-center">
                     <h3>Welcome to breakingBadMe...</h3>
-                    <p>This site aims to bring you some insights in the different BB Characters, random Quotes, and
-                        other great insights in the series.</p>
-                    <p>If I have missed anything, please do contact me through the contact page... I hope you enjoy the
-                        site!</p>
+                    <p>This site is for all the fans, and people interested in knowing more about Breaking Bad. From
+                        information about Characters to locations where they filmed, and other interesting facts.</p>
+                    <p>For newly interested people who haven't seen Breaking Bad yet, I will give a small synopsis about
+                        the show: </p>
+                    <p>in Albuquerque, New Mexico, between 2008 and 2010, Breaking Bad follows Walter
+                        White, a meek high school chemistry <i class="fas fa-atom"></i>
+                        teacher who transforms into a ruthless player in the local
+                        methamphetamine drug trade, driven by a desire to financially<i
+                            class="fas fa-money-bill-wave"></i> <i class="fas fa-money-bill-wave"></i> provide for his
+                        family after being
+                        diagnosed with terminal <i class="fas fa-viruses"></i> lung cancer. </p>
+                    <p>Initially making only small
+                        batches of meth with his former
+                        student Jesse Pinkman in a rolling meth lab, Walter and Jesse eventually expand to make larger
+                        batches of a special blue meth that is incredibly pure and creates high demand.</p>
+                    <p>Walter takes on
+                        the name "Heisenberg" <img src="assets/images/heisenbergicon.png" width="20px" alt="Heisenberg">
+                        to mask his
+                        identity. Because of his drug-related activities, Walter
+                        eventually finds himself at odds with his family, the Drug Enforcement Administration (DEA)
+                        through his brother-in-law Hank Schrader, the local gangs, the Mexican drug cartels and their
+                        regional distributors, putting his life at risk.</p>
+                    <p>With that said, I hope you enjoy the site, the content it's serving, and if I have missed
+                        anything, please do contact me through the contact page...</p>
                     <hr class="my-4">
 
                     <!-- Added quotes / characters in it's own div, so we can style them separately, inside the main body content -->
@@ -74,13 +94,13 @@
                         <!-- Start Characters column -->
                         <div class="col-12 col-lg-6">
                             <h3>Find out about a random Character...</h3>
-                            <p><img src="https://via.placeholder.com/200x200" alt="Character image is shown here upon pressing 'click here, for another
+                            <p><img src="assets/images/bbCharacterPlaceholder.jpg" alt="Character image is shown here upon pressing 'click here, for another
                                     Character'" class="characterImage" id="characterImage" width=""></p>
-                            <div id="charactersJsInsert">
+                            <div class="charactersInsert" id="charactersJsInsert">
                                 <p>Want to know more about a random Character in the series, click the button below, to
                                     get a random Character...</p>
                             </div>
-                            <a href="#" class="btn btn-primary" onclick="showCharacter()">Click
+                            <a href="#" class="btn btnDarkstyle" onclick="showCharacter()">Click
                                 here, for another Character</a>
                         </div>
                         <!-- End Characters column -->
@@ -88,11 +108,11 @@
                         <div class=" col-12 col-lg-6">
                             <hr class="my-4">
                             <h3>Find out about a random Quote...</h3>
-                            <div id="quotesJsInsert">
+                            <div class="quotesInsert" id="quotesJsInsert">
                                 <p>Get a random quote from one of the Characters in Breaking Bad. Click the button
                                     below...</p>
                             </div>
-                            <a href="#" class="btn btn-primary" onclick="showQuotes()">Click
+                            <a href="#" class="btn btnDarkstyle" onclick="showQuotes()">Click
                                 here, for another Quote</a>
                         </div>
                         <!-- End Quotes column -->
