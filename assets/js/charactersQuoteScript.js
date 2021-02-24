@@ -57,7 +57,21 @@ function showCharacter() {
         <p>Nickname: ${randomCharacter.nickname}</p>
         <p>Portrayed by: ${randomCharacter.portrayed}</p>`);
         document.getElementById("characterImage").src = randomCharacter.img;
+        console.log(charactersArray);
     } else {
         alert("There is a problem with Random Characters... Please send me an email so I can fix it...");
     }
 };
+
+
+// Dropdown field population on select, section below:
+// Created a variable to select the element
+const dropdown = document.getElementById("charactersDropdown");
+// Clears dropdown to empty
+dropdown.length = 0;
+
+// Create a default selection option, to show when options are not selected yet, and options are not present yet.
+const defaultOption = document.createElement("option");
+defaultOption.text = "Select a Character";
+dropdown.add(defaultOption);
+dropdown.selectedIndex = 0;
