@@ -85,3 +85,18 @@ document.getElementById("charactersDropdown").onmouseenter = function changeCont
         dropdown.add(option);
     }
 }
+
+// Function to match the name of the dropdown, to the charractersArray, and if it matches, then return values.
+function jsFunction(value) {
+    for (let i = 0; i < charactersArray.length; i++) {
+        if (charactersArray[i].name === value) {
+            charactersJsInsert.innerHTML = "";
+            charactersJsInsert.insertAdjacentHTML("afterbegin",
+                `<h4>${charactersArray[i].name}</h4>
+        <p>Occupation: ${charactersArray[i].occupation}</p>
+        <p>Nickname: ${charactersArray[i].nickname}</p>
+        <p>Portrayed by: ${charactersArray[i].portrayed}</p>`);
+            document.getElementById("characterImage").src = charactersArray[i].img;
+        }
+    }
+}
