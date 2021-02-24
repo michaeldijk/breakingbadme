@@ -89,7 +89,7 @@ a:hover {
 .mainSectionIntroductionCol {
     background-color: rgb(24, 45, 35, 0.7);
     border-radius: 25px;
-    padding: 15px 15px 0px 15px;
+    padding: 15px;
 }
 
 /* Character section / part styling */
@@ -103,8 +103,21 @@ a:hover {
     object-fit: contain;
 }
 
+.charactersInsert,
+.quotesInsert {
+    text-align: left;
+}
+
+.blockquote-footer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: .875em;
+    color: #dfd4c5;
+}
+
 /* ==================== Footer Section Styling */
 .footerStyling {
     text-align: center;
     background-color: rgb(24, 45, 35);
+    padding-top: 15px;
 }
