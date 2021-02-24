@@ -87,7 +87,7 @@ document.getElementById("charactersDropdown").onmouseenter = function changeCont
 }
 
 // Function to match the name of the dropdown, to the charractersArray, and if it matches, then return values.
-function jsFunction(value) {
+function charactersDropdownSelection(value) {
     for (let i = 0; i < charactersArray.length; i++) {
         if (charactersArray[i].name === value) {
             charactersJsInsert.innerHTML = "";
