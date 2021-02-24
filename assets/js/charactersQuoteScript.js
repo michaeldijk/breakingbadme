@@ -75,3 +75,13 @@ const defaultOption = document.createElement("option");
 defaultOption.text = "Select a Character";
 dropdown.add(defaultOption);
 dropdown.selectedIndex = 0;
+
+// For loop to itterate through the array of characters, to create a list of characters.
+document.getElementById("charactersDropdown").onmouseenter = function changeContent() {
+    for (let i = 0; i < charactersArray.length; i++) {
+        option = document.createElement('option');
+        option.text = charactersArray[i].name;
+        option.value = charactersArray[i].name;
+        dropdown.add(option);
+    }
+}
