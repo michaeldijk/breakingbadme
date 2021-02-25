@@ -91,6 +91,15 @@ a:hover {
     padding-left: 51px;
 }
 
+.nav-item {
+    z-index: 10;
+}
+
+.form-check .form-check-input {
+    /* float: left; */
+    margin-left: -1.5em;
+}
+
 /* ==================== Main section, header image */
 .mainImageRow {
     height: 80vh;
@@ -104,7 +113,7 @@ a:hover {
 }
 
 .mainSectionIntroductionCol {
-    background-color: rgb(24, 45, 35, 0.7);
+    background-color: rgb(24, 45, 35, 0.9);
     border-radius: 25px;
     padding: 15px;
 }
@@ -140,4 +149,54 @@ a:hover {
 
 .footerStyling a {
     padding-right: 10px;
+}
+
+/* ==================== Media Queriesss */
+/* iPhone X etc ===== */
+@media only screen and (min-width: 375px) {
+    .mainImageRow {
+        background: url(../images/mainHeaderDarkTheme.jpg) 560px 0;
+        background-size: 329%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    ...
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .mainImageRow {
+        background: url(../images/mainHeaderDarkTheme.jpg) 1180px 0;
+        background-size: 196%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .mainImageRow {
+        background: url(../images/mainHeaderDarkTheme.jpg) -458px 0;
+        background-size: 196%;
+    }
+
+    .hrRandomQuote {
+        display: none;
+    }
+
+    .borderLeftRandomQuotes {
+        border-left: 1px solid rgb(223 212 197 / 21%);
+    }
+
+    .navbar-brand.abs {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    ...
 }
