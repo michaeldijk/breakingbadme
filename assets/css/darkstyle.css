@@ -199,5 +199,8 @@ a:hover {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    ...
+    .mainImageRow {
+        background: url(../images/mainHeaderDarkTheme.jpg) -307px 0;
+        background-size: 135%;
+    }
 }
