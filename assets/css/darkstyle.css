@@ -130,7 +130,10 @@ a:hover {
 /* ==================== Footer Section Styling */
 .footerStyling {
     text-align: center;
-    font-size: 11px;
     background-color: rgb(24, 45, 35);
     padding-top: 15px;
+}
+
+.footerStyling a {
+    padding-right: 10px;
 }
