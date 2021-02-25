@@ -53,6 +53,10 @@ a:hover {
     margin: 0;
 }
 
+.row {
+    margin: 0;
+}
+
 /* ==================== Navigation-text-styling */
 .navbar-nav {
     text-align: right;
@@ -86,8 +90,8 @@ a:hover {
 /* ==================== Main section, header image */
 .mainImageRow {
     height: 80vh;
-    background: url(../images/mainHeaderDarkTheme.jpg) 430px 0;
-    background-size: 250%;
+    background: url(../images/mainHeaderDarkTheme.jpg) 403px 0;
+    background-size: 259%;
 }
 
 .mainSectionRow {
