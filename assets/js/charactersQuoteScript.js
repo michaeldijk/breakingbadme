@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 // empty charactersArray & quotesArray to store the API JSON data
 let charactersArray = [];
 let quotesArray = [];
@@ -41,7 +43,7 @@ function showQuotes() {
     } else {
         alert("There is a problem with Random Quotes... Please send me an email so I can fix it...");
     }
-};
+}
 
 // Function which loads in, if button is pressed to show Character on the site.
 function showCharacter() {
@@ -57,11 +59,10 @@ function showCharacter() {
         <p>Nickname: ${randomCharacter.nickname}</p>
         <p>Portrayed by: ${randomCharacter.portrayed}</p>`);
         document.getElementById("characterImage").src = randomCharacter.img;
-        console.log(charactersArray);
     } else {
         alert("There is a problem with Random Characters... Please send me an email so I can fix it...");
     }
-};
+}
 
 
 // Dropdown field population on select, section below:
@@ -84,7 +85,7 @@ document.getElementById("charactersDropdown").onmouseenter = function changeCont
         option.value = charactersArray[i].name;
         dropdown.add(option);
     }
-}
+};
 
 // Function to match the name of the dropdown, to the charractersArray, and if it matches, then return values.
 function charactersDropdownSelection(value) {
@@ -96,6 +97,7 @@ function charactersDropdownSelection(value) {
                 <p>Nickname: ${charactersArray[i].nickname}</p>
                 <p>Birthday: ${charactersArray[i].birthday}</p>
         <p>Dead or Alive: ${charactersArray[i].status}</p>
+        <p>Occupation: ${charactersArray[i].occupation}</p>
         <p>Appeared in seasons: ${charactersArray[i].appearance}</p>
         <p>Portrayed by: ${charactersArray[i].portrayed}</p>`);
             document.getElementById("characterImage").src = charactersArray[i].img;
