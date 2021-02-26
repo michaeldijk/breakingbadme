@@ -96,12 +96,32 @@
                     <!-- Start Contact inside Row -->
                     <div class="row">
                         <!-- Start Contact image Col -->
-                        <div class="col-12">
+                        <div class="col-12 col-lg-6">
                             <img src="assets/images/jessyContact.jpg"
                                 alt="Jessy on his Laptop outside near the VAN-Magnet scene" class="contactImage">
                         </div>
-                        <div class="col-12">
-                            <p>Contact form comes here</p>
+                        <div class="col-12 col-lg-6">
+                            <form class="row g-3">
+                                <div class="col-md-4">
+                                    <label for="fname" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="fname" name="fullName"
+                                        placeholder="Bruce willis" required="">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="brucetheman@willis.com" required="">
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="story" class="form-label">Tell me your
+                                        story...</label>
+                                    <textarea class="form-control" id="story" rows="5" name="story"
+                                        placeholder="My lifestory to you..." required=""></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btnDarkstyle">Send</button>
+                                </div>
+                            </form>
                         </div>
                         <!-- Start Contact image Col -->
                     </div>
