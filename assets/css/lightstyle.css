@@ -104,8 +104,8 @@ a:hover {
 /* ==================== Main section, header image */
 .mainImageRow {
     height: 80vh;
-    background: url(../images/mainHeaderLightTheme.jpg) 403px 0;
-    background-size: 259%;
+    background: url(../images/mainHeaderLightTheme.jpg) 640px -210px;
+    background-size: 433%;
 }
 
 .mainSectionRow {
@@ -169,7 +169,7 @@ a:hover {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .mainImageRow {
-        background: url(../images/mainHeaderLightTheme.jpg) 1180px 0;
+        background: url(../images/mainHeaderLightTheme.jpg) 903px 0;
         background-size: 196%;
     }
 }
@@ -177,7 +177,7 @@ a:hover {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .mainImageRow {
-        background: url(../images/mainHeaderLightTheme.jpg) -458px 0;
+        background: url(../images/mainHeaderLightTheme.jpg) -784px 0;
         background-size: 196%;
     }
 

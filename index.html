@@ -36,8 +36,7 @@
         crossorigin="anonymous" />
 
     <!-- Own Stylesheet -->
-    <link rel="stylesheet" href="assets/css/darkstyle.css">
-
+    <link rel="stylesheet" href="assets/css/darkstyle.css" id="styleSheet">
     <title>breakingBadMe!</title>
 </head>
 
@@ -72,8 +71,9 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                            <label class="form-check-label" for="flexSwitchCheckDefault">Light or Dark Mode</label>
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"
+                                onclick="toggleDarkLightTheme()">
+                            <label class=" form-check-label" for="flexSwitchCheckDefault">Light or Dark Mode</label>
                         </div>
                     </li>
                 </ul>
@@ -189,6 +189,9 @@
 
     <!-- JavaScript to do some magical things.. -->
     <script src="assets/js/charactersQuoteScript.js"></script>
+
+    <!-- Script for toggler light/dark theme -->
+    <script src="assets/js/themeswitcher.js"></script>
 
     <!-- Bootstrap scripts, popper.js / boostrap.min.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"

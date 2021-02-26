@@ -1,4 +1,4 @@
-function toggle() {
+function toggleDarkLightTheme() {
     const el = document.getElementById("styleSheet");
     if (el.href.match("assets/css/darkstyle.css")) {
         el.href = "assets/css/lightstyle.css";
