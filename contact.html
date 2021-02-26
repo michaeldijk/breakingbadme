@@ -102,7 +102,8 @@
                                 alt="Jessy on his Laptop outside near the VAN-Magnet scene" class="contactImage">
                         </div>
                         <div class="col-12 col-lg-6">
-                            <form class="row g-3 justify-content-center" id="contact-form">
+                            <form class="row g-3 justify-content-center" id="contactForm"
+                                onsubmit="return sendMail(this);">
                                 <div class="col-md-6">
                                     <label for="fname" class="form-label">Name</label>
                                     <input type="text" class="form-control" id="fname" name="fullName"
@@ -120,7 +121,7 @@
                                         placeholder="My lifestory to you..." required=""></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit" class="btn btnDarkstyle">Send</button>
+                                    <button type="submit" class="btn btnDarkstyle" id="btnSubmit">Send</button>
                                 </div>
                             </form>
                         </div>
@@ -147,18 +148,16 @@
         </div>
     </footer>
     <!-- End of footer section -->
-
-    <!-- Script for emailJS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <!-- Script for emailJS local -->
-    <script src="assets/js/emailJS.js"></script>
-    <!-- Script for emailJS auth -->
+    <script src="assets/js/emailForm.js"></script>
+
     <script>
         (function () {
             emailjs.init("user_4QgUIJkPSvelEHJpPosvP");
         })();
     </script>
+
     <!-- Script for Characters and Quote generator -->
     <script src="assets/js/charactersQuoteScript.js"></script>
 
