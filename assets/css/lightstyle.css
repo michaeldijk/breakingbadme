@@ -141,6 +141,13 @@ a:hover {
     color: #000000;
 }
 
+/* ==================== Contact Styling */
+.contactImage {
+    height: 160px;
+    width: auto;
+    border-radius: 25px;
+}
+
 /* ==================== Footer Section Styling */
 .footerStyling {
     text-align: center;
