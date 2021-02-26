@@ -166,6 +166,12 @@ a:hover {
         background: url(../images/mainHeaderDarkTheme.jpg) 560px 0;
         background-size: 329%;
     }
+
+    .contactImage {
+        height: 175px;
+        width: auto;
+        border-radius: 25px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -178,6 +184,12 @@ a:hover {
     .mainImageRow {
         background: url(../images/mainHeaderDarkTheme.jpg) 1180px 0;
         background-size: 196%;
+    }
+
+    .contactImage {
+        height: 411px;
+        width: auto;
+        border-radius: 25px;
     }
 }
 
@@ -202,6 +214,12 @@ a:hover {
         left: 0;
         text-align: center;
     }
+
+    .contactImage {
+        height: 288px;
+        width: auto;
+        border-radius: 25px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -209,5 +227,11 @@ a:hover {
     .mainImageRow {
         background: url(../images/mainHeaderDarkTheme.jpg) -307px 0;
         background-size: 135%;
+    }
+
+    .contactImage {
+        height: 374px;
+        width: auto;
+        border-radius: 25px;
     }
 }
