@@ -254,6 +254,15 @@ a:hover {
         width: 100%;
         object-fit: contain;
     }
+
+    .randomCharacterColRight {
+        margin-left: 40px;
+        margin-top: 0;
+    }
+
+    .randomCharacterColLeft {
+        margin-right: 40px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
