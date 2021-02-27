@@ -220,6 +220,16 @@ a:hover {
         width: auto;
         border-radius: 25px;
     }
+
+    .characterImage {
+        display: none;
+    }
+
+    .characterImageLgScreen {
+        height: 350px;
+        width: 100%;
+        object-fit: contain;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -233,5 +243,13 @@ a:hover {
         height: 374px;
         width: auto;
         border-radius: 25px;
+    }
+}
+
+/* Extra Media-Query as I cannot get the CharactersImageLargeScreen to fit/work therefore assigning a max-width to the rule */
+
+@media only screen and (min-width: 375px) and (max-width: 991px) {
+    .characterImageLgScreen {
+        display: none;
     }
 }
