@@ -161,6 +161,10 @@ a:hover {
     margin-top: 15px;
 }
 
+.triviaQuizCol {
+    padding-top: 15px;
+}
+
 /* ==================== Contact Styling */
 .contactImage {
     height: 160px;
