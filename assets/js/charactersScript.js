@@ -34,6 +34,7 @@ function charactersDropdownSelection(value) {
         <p>Appeared in seasons: ${charactersArray[i].appearance}</p>
         <p>Portrayed by: ${charactersArray[i].portrayed}</p>`);
             document.getElementById("characterImage").src = charactersArray[i].img;
+            document.getElementById("characterImage1").src = charactersArray[i].img
         }
     }
 }
