@@ -152,14 +152,13 @@ a:hover {
     background-color: rgb(29 29 27);
     border-radius: 25px;
     padding: 15px;
-    margin-right: 40px;
 }
 
 .randomCharacterColRight {
     background-color: rgb(29 29 27);
     border-radius: 25px;
     padding: 15px;
-    margin-left: 40px;
+    margin-top: 15px;
 }
 
 /* ==================== Contact Styling */
@@ -250,6 +249,15 @@ a:hover {
         height: 350px;
         width: 100%;
         object-fit: contain;
+    }
+
+    .randomCharacterColLeft {
+        margin-right: 40px;
+    }
+
+    .randomCharacterColRight {
+        margin-left: 40px;
+        margin-top: 0;
     }
 }
 
