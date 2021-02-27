@@ -29,6 +29,12 @@ h3 {
     border-color: #DFD4C5;
 }
 
+.btnDarkStyleAlt {
+    color: #fff;
+    background-color: #3b3b36;
+    border-color: #DFD4C5;
+}
+
 .btn-check:focus+.btn,
 .btn:focus {
     outline: 0;
