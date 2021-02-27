@@ -130,7 +130,8 @@ a:hover {
     object-fit: contain;
 }
 
-.characterImageMain {
+.characterImageMain,
+.QuoteImage {
     height: 350px;
     width: 100%;
     object-fit: contain;
@@ -145,6 +146,20 @@ a:hover {
     margin-bottom: 1rem;
     font-size: .875em;
     color: #000000;
+}
+
+.randomCharacterColLeft {
+    background-color: rgb(176 218 170);
+    border-radius: 25px;
+    padding: 15px;
+    margin-right: 40px;
+}
+
+.randomCharacterColRight {
+    background-color: rgb(176 218 170);
+    border-radius: 25px;
+    padding: 15px;
+    margin-left: 40px;
 }
 
 /* ==================== Contact Styling */
