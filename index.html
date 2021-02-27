@@ -45,7 +45,7 @@
     <!-- Start of header section (Navbar etc.) -->
     <header>
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand abs" href="#">breakingBadMe</a>
+            <p class="navbar-brand abs" href="#">breakingBadMe</p>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-ellipsis-v navbarIcon"></i>
@@ -53,19 +53,22 @@
             <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Characters</a>
+                        <a class="nav-link" href="characters.html">Characters</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Episodes</a>
+                        <a class="nav-link" href="episodes.html">Episodes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Places</a>
+                        <a class="nav-link" href="places.html">Places</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="trivia.html">Trivia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
@@ -95,17 +98,21 @@
                 <div class="col-10 col-lg-10 mainSectionIntroductionCol text-center">
                     <div class="col-12">
                         <h3>Welcome to breakingBadMe...</h3>
-                        <p>This site is for all the fans, and people interested in knowing more about Breaking Bad. From
-                            information about Characters to locations where they filmed, and other interesting facts.
+                        <p>This site is for all the fans, and people interested in knowing more about Breaking Bad.
+                            From
+                            information about Characters to locations where they filmed, and other interesting
+                            facts.
                         </p>
-                        <p>For newly interested people who haven't seen Breaking Bad yet, I will give a small synopsis
+                        <p>For newly interested people who haven't seen Breaking Bad yet, I will give a small
+                            synopsis
                             about
                             the show: </p>
                         <p>in Albuquerque, New Mexico, between 2008 and 2010, Breaking Bad follows Walter
                             White, a meek high school chemistry <i class="fas fa-atom"></i>
                             teacher who transforms into a ruthless player in the local
                             methamphetamine drug trade, driven by a desire to financially<i
-                                class="fas fa-money-bill-wave"></i> <i class="fas fa-money-bill-wave"></i> provide for
+                                class="fas fa-money-bill-wave"></i> <i class="fas fa-money-bill-wave"></i> provide
+                            for
                             his
                             family after being
                             diagnosed with terminal <i class="fas fa-viruses"></i> lung cancer. </p>
@@ -119,7 +126,8 @@
                                 alt="Heisenberg">
                             to mask his
                             identity. Because of his drug-related activities, Walter
-                            eventually finds himself at odds with his family, the Drug Enforcement Administration (DEA)
+                            eventually finds himself at odds with his family, the Drug Enforcement Administration
+                            (DEA)
                             through his brother-in-law Hank Schrader, the local gangs, the Mexican drug cartels and
                             their
                             regional distributors, putting his life at risk.</p>
@@ -129,14 +137,15 @@
                     </div>
 
                     <!-- Added quotes / characters in it's own div, so we can style them separately, inside the main body content -->
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <!-- Start Characters column -->
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-5 randomCharacterColLeft">
                             <h3>Random Character...</h3>
                             <p><img src="assets/images/bbCharacterPlaceholder.jpg" alt="Character image is shown here upon pressing 'click here, for another
-                                    Character'" class="characterImage" id="characterImage" width=""></p>
+                                    Character'" class="characterImageMain" id="characterImage" width=""></p>
                             <div class="charactersInsert" id="charactersJsInsert">
-                                <p>Want to know more about a random Character in the series, click the button below, to
+                                <p>Want to know more about a random Character in the series, click the button below,
+                                    to
                                     get a random Character...</p>
                             </div>
                             <a href="#" class="btn btnDarkstyle" onclick="showCharacter()">Click
@@ -144,9 +153,10 @@
                         </div>
                         <!-- End Characters column -->
                         <!-- Start Quotes column -->
-                        <div class=" col-12 col-lg-6 borderLeftRandomQuotes">
-                            <hr class="my-4 hrRandomQuote">
+                        <div class=" col-12 col-lg-5 randomCharacterColRight">
                             <h3>Random Quote...</h3>
+                            <img src="assets/images/quoteHeader.jpg" alt="Character image is shown here upon pressing 'click here, for another
+                                    Character'" class="QuoteImage">
                             <div class="quotesInsert" id="quotesJsInsert">
                                 <p>Get a random quote from one of the Characters in Breaking Bad. Click the button
                                     below...</p>
@@ -160,7 +170,8 @@
                         <div class="col-12">
                             <hr class="my-4">
                             <h3>Trivia Quiz...</h3>
-                            <p>Do you think you know enough about Breaking bad, without going through the Characters and
+                            <p>Do you think you know enough about Breaking bad, without going through the Characters
+                                and
                                 other topics, and answerring the questions, then do the Trivia Quiz...</p>
                             <a href="#" class="btn btnDarkstyle">Click
                                 here, To do the Trivia Quiz</a>
@@ -187,7 +198,8 @@
     </footer>
     <!-- End of footer section -->
 
-    <!-- JavaScript to do some magical things.. -->
+
+    <!-- JavaScript for the Characters / Quote generator.. -->
     <script src="assets/js/charactersQuoteScript.js"></script>
 
     <!-- Script for toggler light/dark theme -->
