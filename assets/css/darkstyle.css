@@ -130,6 +130,12 @@ a:hover {
     object-fit: contain;
 }
 
+.characterImageMain {
+    height: 350px;
+    width: 100%;
+    object-fit: contain;
+}
+
 .charactersInsert .quotesInsert {
     text-align: left;
 }
