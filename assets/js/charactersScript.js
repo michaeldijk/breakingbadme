@@ -11,7 +11,9 @@ dropdown.add(defaultOption);
 dropdown.selectedIndex = 0;
 
 // For loop to itterate through the array of characters, to create a list of characters.
-document.getElementById("charactersDropdown").onmouseenter = function changeContent() {
+//document.getElementById("charactersDropdown").onclick = 
+// Got help from my mentor, Antonio, what to do / solve it, as it was loading over and over the array.
+function loadCharsSelector() {
     for (let i = 0; i < charactersArray.length; i++) {
         option = document.createElement('option');
         option.text = charactersArray[i].name;
