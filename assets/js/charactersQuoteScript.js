@@ -1,5 +1,3 @@
-/* jshint esversion: 6 */
-
 // empty charactersArray & quotesArray to store the API JSON data
 let charactersArray = [];
 let quotesArray = [];
@@ -16,13 +14,16 @@ function loadQoutes() {
     };
 }
 // Load Characters from BreakingBadAPI.com, and store them inside charactersArray to work from later
-function loadChars() {
+function loadChars(cb) {
     let xhr = new XMLHttpRequest();
     xhr.open("GET", "https://www.breakingbadapi.com/api/characters");
     xhr.send();
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
             charactersArray = JSON.parse(this.responseText);
+            if (cb) {
+                cb();
+            }
         }
     };
 }
