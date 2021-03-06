@@ -107,6 +107,15 @@ a:hover {
     display: inline-block !important;
 }
 
+.darkModeButton {
+    height: 40px;
+    width: 200px;
+    outline: none;
+    background: black;
+    border: black solid 2px;
+    color: white;
+}
+
 /* ==================== Main section, header image */
 .mainImageRow {
     height: 80vh;
