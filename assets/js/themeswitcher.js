@@ -5,6 +5,7 @@ const themeToggle = document.getElementById("themeToggleButton");
 const currentTheme = localStorage.getItem("theme");
 const styleSheet = document.getElementById("cssStyling");
 
+// checking if theme is stored and adjusting the styling accordingly
 if (currentTheme) {
     styleSheet.href = "assets/css/" + currentTheme + ".css";
     if (currentTheme != "lightstyle") {
@@ -15,6 +16,7 @@ if (currentTheme) {
 
 }
 
+// function to set the theme, and store it in local storage with keyword
 function toggleDarkLightTheme() {
     if (styleSheet.href.match("darkstyle.css")) {
         styleSheet.href = "assets/css/lightstyle.css";
