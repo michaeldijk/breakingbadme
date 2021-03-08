@@ -107,18 +107,19 @@ a:hover {
     display: inline-block !important;
 }
 
-.darkModeButton {
+/* Removing this styling as it's not needed anymore, we're styling the button according to the general styling rules */
+/* .darkModeButton {
     height: 40px;
     width: 200px;
     outline: none;
     background: black;
     border: black solid 2px;
     color: white;
-}
+} */
 
 /* ==================== Main section, header image */
 .mainImageRow {
-    height: 80vh;
+    height: 95vh;
     background: url(../images/mainHeaderDarkTheme.jpg) 403px 0;
     background-size: 259%;
 }
