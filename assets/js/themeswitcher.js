@@ -9,10 +9,8 @@ if (currentTheme) {
     styleSheet.href = "assets/css/" + currentTheme + ".css";
     if (currentTheme != "lightstyle") {
         themeToggle.innerHTML = '<i class="fas fa-sun"></i> Light Mode';
-        themeToggle.classList.add("darkModeButton");
     } else {
         themeToggle.innerHTML = '<i class="fas fa-moon"></i> Dark Mode';
-        themeToggle.classList.remove("darkModeButton");
     }
 
 }
