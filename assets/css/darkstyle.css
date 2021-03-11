@@ -181,6 +181,11 @@ a:hover {
     padding-top: 15px;
 }
 
+/* ==================== Episode Styling */
+.episodeAccButton {
+    display: block;
+}
+
 /* ==================== Contact Styling */
 .contactImage {
     height: 160px;
