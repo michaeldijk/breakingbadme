@@ -120,8 +120,8 @@ a:hover {
 /* ==================== Main section, header image */
 .mainImageRow {
     height: 95vh;
-    background: url(../images/mainHeaderLightTheme.jpg) 640px -210px;
-    background-size: 433%;
+    background: url(../images/lightMode/1.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .mainSectionRow {
@@ -207,11 +207,6 @@ a:hover {
 /* ==================== Media Queriesss */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 375px) {
-    .mainImageRow {
-        background: url(../images/mainHeaderLightTheme.jpg) 560px 0;
-        background-size: 329%;
-    }
-
     .contactImage {
         height: 175px;
         width: auto;
@@ -226,11 +221,6 @@ a:hover {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .mainImageRow {
-        background: url(../images/mainHeaderLightTheme.jpg) 903px 0;
-        background-size: 196%;
-    }
-
     .contactImage {
         height: 411px;
         width: auto;
@@ -240,11 +230,6 @@ a:hover {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .mainImageRow {
-        background: url(../images/mainHeaderLightTheme.jpg) -784px 0;
-        background-size: 196%;
-    }
-
     .hrRandomQuote {
         display: none;
     }
@@ -288,11 +273,6 @@ a:hover {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .mainImageRow {
-        background: url(../images/mainHeaderLightTheme.jpg) -307px -271px;
-        background-size: 121%;
-    }
-
     .contactImage {
         height: 374px;
         width: auto;
