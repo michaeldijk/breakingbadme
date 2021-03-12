@@ -3,6 +3,16 @@
 
 [Visit the site on GitHub.io - breakingBadMe](https://michaeldijk.github.io/breakingbadme/)
 
+This is a website created as a homage to a series, that is dear to my heart, I wanted to create a fan-site, covering what I've learned so far in my studies, and, also, making it interactive for the visitors, with JavaScript, CSS and HTML.
+
+The site is created with a Mobile first approach, but, works great on larger viewwindows / computers as well. It covers interactivity from the front-page to the Trivia page, to the Characters page.
+
+The site had to be well visible on all devices, have an interactive and intuitive design, and, look pleasing to the eye.
+
+It has two different views, lightmode and darkmode, see mockups below:
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/mockUps/darkMode.png)
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/mockUps/lightMode.png)
+
 ## Table of contents
 * [Who is the website for?](LINKCOMESHERE)
 * [Who is the owner?](LINKCOMESHERE)
@@ -35,16 +45,6 @@
 * [Acknowledgements](LINKCOMESHERE)
 
 ---
-
-This is a website created as a homage to a series, that is dear to my heart, I wanted to create a fan-site, covering what I've learned so far in my studies, and, also, making it interactive for the visitors, with JavaScript, CSS and HTML.
-
-The site is created with a Mobile first approach, but, works great on larger viewwindows / computers as well. It covers interactivity from the front-page to the Trivia page, to the Characters page.
-
-The site had to be well visible on all devices, have an interactive and intuitive design, and, look pleasing to the eye.
-
-It has two different views, lightmode and darkmode, see mockups below:
-![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/mockUps/darkMode.png)
-![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/mockUps/lightMode.png)
 
 ### Who is the website for?
 People who are fans of Breaking Bad, and want to know more about the series. There is a **"Trivia"** (`trivia.html`) page testing user's knowledge about the series, and all the information that the trivia covers, can be found on the site. 
