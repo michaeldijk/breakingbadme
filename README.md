@@ -70,6 +70,17 @@ There is also an interactive **"places"** (`places.html`) page, which gives some
 #### Features left to implement
 
 ### Technologies Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML) - General website MarkUp
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - Styling for the site as a whole
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Adding interactivity
+* [Google Fonts](https://fonts.google.com/) - For the fonts used
+* [Bootstrap5](https://getbootstrap.com/) - Framework used for the website
+* [Font Awesome](https://fontawesome.com/) - All icons are taken from Font Awesome
+* [jQuery](https://jquery.com/) - JavaScript library used
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Used for general testing, fixing coding bugs, adjusting styling
+* [Visual Studio Code](https://code.visualstudio.com/) - My main IDE for creating the site and JS / CSS
+* [Git](https://git-scm.com/) - Local environment for version control
+* [GitHub](https://github.com/) - Online version control, place to store data, and allow online visibility of the project
 
 ### Testing
 #### User Story Testing
