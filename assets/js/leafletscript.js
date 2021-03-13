@@ -17,12 +17,16 @@ let marker1 = L.marker([35.12640132916876, -106.53660537438093]);
 let marker2 = L.marker([35.13027443181194, -106.53227049369545]);
 // Octopus Car-wash
 let marker3 = L.marker([35.10839191045314, -106.53554975903837]);
+// Delta Linen Supplies
+let marker4 = L.marker([35.115922947341325, -106.62677721868599]);
+
 
 const placesText = document.getElementById("mapsText");
 const placesImage = document.getElementById("mapsImage");
 
 function selectPlace(menu) {
     if (menu.value == '1') {
+        marker4.remove();
         marker3.remove();
         marker2.remove();
         marker1.remove();
@@ -41,6 +45,7 @@ function selectPlace(menu) {
         src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/40448570/place_image-image-2473f802-b225-44f0-9f9b-4f6b849fe5db.jpg"
         alt="White Family's House" width="270px">`;
     } else if (menu.value == '2') {
+        marker4.remove();
         marker3.remove();
         marker2.remove();
         marker1.remove();
@@ -52,6 +57,7 @@ function selectPlace(menu) {
         src="https://static.wikia.nocookie.net/breakingbad/images/0/07/SaulOffice.png"
         alt="Better Caul Saul's Office" width="270px">`;
     } else if (menu.value == '3') {
+        marker4.remove();
         marker3.remove();
         marker2.remove();
         marker1.remove();
@@ -63,9 +69,16 @@ function selectPlace(menu) {
         src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/35017864/place_image-image-b592b300-2fc9-4eb4-983a-79fd385473ce.jpg"
         alt="A1A Car Wash" width="270px">`;
     } else if (menu.value == '4') {
-        let marker = marker3.addTo(mymap);
-        let markerSecond = marker2.addTo(mymap);
-        let markerThird = marker1.addTo(mymap);
-        marker.bindPopup('<img src="https://na.rdcpix.com/625946635/a545dc497c1d4e1385851ca5e12f5a14w-c0xd-w640_h480_q80.jpg" width="100px" height="100px"><br><p>Walter Whites House</p>');
+        marker4.remove();
+        marker3.remove();
+        marker2.remove();
+        marker1.remove();
+        let marker = marker4.addTo(mymap);
+        marker.bindPopup('<img src="https://i.pinimg.com/originals/42/c8/9a/42c89ab7c6af2d5992fac46ce59ca29d.jpg" width="100px" height="100px"><br><p>Delta Linen Supply</p>').openPopup();
+        marker.flyTo;
+        placesText.innerHTML = `<p>There might not be a superlab located deep in the basement of this laundry facility, but you can still visit the location that set the stage for many tense moments between Heisenberg and Fring in Season 4's "Delta Linen Supply."</p>`;
+        placesImage.innerHTML = `<img
+        src="https://i.pinimg.com/originals/42/c8/9a/42c89ab7c6af2d5992fac46ce59ca29d.jpg"
+        alt="Delta Linen Supply" width="270px">`;
     }
 }
