@@ -210,6 +210,13 @@ a:hover {
     padding-right: 10px;
 }
 
+/* ==================== Places page Styling */
+#mapid {
+    height: 250px;
+    /* width: 250px; */
+    background-color: blue;
+}
+
 /* ==================== Media Queriesss */
 /* iPhone X etc ===== */
 @media only screen and (min-width: 375px) {
