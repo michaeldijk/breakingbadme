@@ -28,3 +28,9 @@ function toggleDarkLightTheme() {
         localStorage.setItem("theme", darkStoredTheme);
     }
 }
+
+// Found partial solutions to this code, from:
+// https://blog.prototypr.io/create-your-own-dark-mode-using-js-css-variables-and-localstorage-8b461864644b
+// https://stackoverflow.com/questions/18368319/toggle-css-sheets-on-click-with-javascript
+
+// Adjusted this to suit my code/needs, so it worked with localStorage & button on the site
