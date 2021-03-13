@@ -10,8 +10,10 @@ The site is created with a Mobile first approach, but, works great on larger vie
 The site had to be well visible on all devices, have an interactive and intuitive design, and, look pleasing to the eye.
 
 It has two different views, lightmode and darkmode, see mockups below:
-![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/mockUps/darkMode.png)
-![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/mockUps/lightMode.png)
+    * Darkmode:
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/mockUps/darkMode.png)
+    * Lightmode:
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/mockUps/lightMode.png)
 
 ## Table of contents
 * [Who is the website for?](https://github.com/michaeldijk/breakingbadme#who-is-the-website-for)
@@ -98,7 +100,6 @@ There is also an interactive **"places"** (`places.html`) page, which gives some
 #### Code
 ##### HTML
 * [Bootstrap5](https://getbootstrap.com/) - I used Bootstrap 5.0.0 BETA as my framework
-* [Favicon-Generator](https://www.favicon-generator.org/) - Used to generate the favicon icon, and code to accompany the icon
 * [Favicon-Generator](https://www.favicon-generator.org/) - Used to generate the favicon icon, and code to accompany the icon
 * [Codeply | Skelly](https://www.codeply.com/p/P0KN7DNsEq) - Used example #1, and adjusted it to suit my site/needs, as I wanted to style the dark/lightmode button on the right, center Navbar-Brand and left the links to the site, this example showed exactly how to use the Bootstrap Navbar.
 
