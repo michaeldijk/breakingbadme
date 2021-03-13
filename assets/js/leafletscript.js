@@ -10,12 +10,15 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoiZGlqa204OCIsImEiOiJja2x6OHhtcTAxdGwxMnZvMzQ0ZTdjaG9hIn0.s6yfZuBI6mhQIB-bhDQO4g'
 }).addTo(mymap);
 
+// Default values:
 // Walter White's House
 let marker1 = L.marker([35.12640132916876, -106.53660537438093]);
 // Hooligan's Tavern
 let marker2 = L.marker([35.13027443181194, -106.53227049369545]);
 // Octopus Car-wash
 let marker3 = L.marker([35.10839191045314, -106.53554975903837]);
+
+const placesText = document.getElementById("mapsText");
 
 function selectPlace(menu) {
     if (menu.value == '1') {
@@ -24,6 +27,15 @@ function selectPlace(menu) {
         marker1.remove();
         let marker = marker1.addTo(mymap);
         marker.bindPopup('<img src="https://na.rdcpix.com/625946635/a545dc497c1d4e1385851ca5e12f5a14w-c0xd-w640_h480_q80.jpg" width="100px" height="100px"><br><p>Walter Whites House</p>').openPopup();
+        placesText.innerHTML = `<p>Generally speaking, standing outside Walter's house and snapping pictures would
+        probably a bad idea. In Heisenberg’s Albuquerque, you would most likely find
+        yourself dissolving in a plastic barrel, but lucky for us, it’s not such a big deal
+        in real life.</p>
+    <p>Frances Padilla had no idea what she was getting herself into when she agreed to let
+        her home of 40 years become the fictional residence of the turbulent White family.
+        On a monthly basis, well over 400 cars, filled to the brim with Breaking Bad fans,
+        pull up to her curb and pile out just to take pictures of themselves wearing
+        dad-sunglasses and black bowler hats.</p>`;
     } else if (menu.value == '2') {
         marker3.remove();
         marker2.remove();
@@ -31,6 +43,7 @@ function selectPlace(menu) {
         let marker = marker2.addTo(mymap);
         marker.bindPopup('<img src="https://na.rdcpix.com/625946635/a545dc497c1d4e1385851ca5e12f5a14w-c0xd-w640_h480_q80.jpg" width="100px" height="100px"><br><p>Walter Whites House</p>').openPopup();
         marker.flyTo;
+        placesText.innerHTML = `<p>Because no Breaking Bad pilgrimage would be complete without a nod to Saul Goodman, we made sure to include a location, Hooligan's Tavern, where you can grab a beer and pay homage to the sleaziest lawyer in the Southwest. This was where the exterior of Saul's office was shot.</p>`;
     } else if (menu.value == '3') {
         marker3.remove();
         marker2.remove();
@@ -38,6 +51,7 @@ function selectPlace(menu) {
         let marker = marker3.addTo(mymap);
         marker.bindPopup('<img src="https://na.rdcpix.com/625946635/a545dc497c1d4e1385851ca5e12f5a14w-c0xd-w640_h480_q80.jpg" width="100px" height="100px"><br><p>Walter Whites House</p>').openPopup();
         marker.flyTo;
+        placesText.innerHTML = `<p>While Walt and Skyler might have been using their A1A Car Wash to clean dirty cash, the real life counterpart, Octopus Car Wash, focuses primarily on cars. You can pull in for a wash, or just snap some photos, as it’s open to the general public.</p>`;
     } else if (menu.value == '4') {
         let marker = marker3.addTo(mymap);
         let markerSecond = marker2.addTo(mymap);
