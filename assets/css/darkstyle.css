@@ -213,8 +213,17 @@ a:hover {
 /* ==================== Places page Styling */
 #mapid {
     height: 250px;
-    /* width: 250px; */
-    background-color: blue;
+    border-radius: 20px;
+}
+
+.placesDropdownRow {
+    padding-bottom: 15px;
+}
+
+.placesImage {
+    object-fit: contain;
+    height: 200px;
+    width: 214px;
 }
 
 /* ==================== Media Queriesss */
