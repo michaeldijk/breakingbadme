@@ -35,6 +35,15 @@
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
 
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
+    <!-- LeafletJS Script -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
     <!-- Own Stylesheet -->
     <link rel="stylesheet" href="assets/css/darkstyle.css" id="cssStyling">
 
@@ -104,10 +113,17 @@
                     <!-- Start places styling -->
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-12 bg-danger">dropdown here</div>
+                            <div class="col-12 bg-danger"><select id="places" onchange="selectPlace(this)">
+                                    <option value="blank" selected>Select a location</option>
+                                    <option value="1">Walter White's House</option>
+                                    <option value="2">Hooligan's Tavern</option>
+                                    <option value="3">Octopus Car Wash</option>
+                                </select></div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 col-lg-6 bg-dark order-lg-2">Map comes here</div>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-6 bg-dark order-lg-2">
+                                <div id="mapid"></div>
+                            </div>
                             <div class="col-12 col-lg-6 bg-dark">Text comes here</div>
                         </div>
                         <div class="row">
@@ -136,12 +152,8 @@
     </footer>
     <!-- End of footer section -->
 
-    <!-- Load JQuery libraries -->
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-    <!-- Episodes jQuery Script -->
-    <script src="assets/js/episodes.js"></script>
+    <!-- Script for leafletJS maps -->
+    <script src="assets/js/leafletscript.js"></script>
 
     <!-- Script for toggler light/dark theme -->
     <script src="assets/js/themeswitcher.js"></script>
