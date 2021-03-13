@@ -10,10 +10,10 @@ The site is created with a Mobile first approach, but, works great on larger vie
 The site had to be well visible on all devices, have an interactive and intuitive design, and, look pleasing to the eye.
 
 It has two different views, lightmode and darkmode, see mockups below:
-    * Darkmode:
-    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/mockUps/darkMode.png)
-    * Lightmode:
-    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/mockUps/lightMode.png)
+## Darkmode:
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/mockUps/darkMode.png)
+## Lightmode:
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/mockUps/lightMode.png)
 
 ## Table of contents
 * [Who is the website for?](https://github.com/michaeldijk/breakingbadme#who-is-the-website-for)
