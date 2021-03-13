@@ -112,7 +112,7 @@
                     <h3>All Breaking Bad locations...</h3>
                     <!-- Start places styling -->
                     <div class="container-fluid">
-                        <div class="row">
+                        <div class="row placesDropdownRow">
                             <div class="col-12"><select id="places" onchange="selectPlace(this)">
                                     <option value="blank" selected>Select a location</option>
                                     <option value="1">Walter White's House</option>
@@ -120,19 +120,25 @@
                                     <option value="3">Octopus Car Wash</option>
                                     <option value="4">Delta Linen Supply</option>
                                     <option value="5">Pinkman Residence</option>
+                                    <option value="6">Java Joe's</option>
+                                    <option value="7">Crossroads Motel</option>
+                                    <option value="8">Ace Metals</option>
+                                    <option value="9">Twisters Restaurant</option>
+                                    <option value="10">To'hajiilee Ind. Res.</option>
                                 </select></div>
+
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-6 order-lg-2">
                                 <div id="mapid"></div>
                             </div>
-                            <div class="col-12 col-lg-6" id="mapsText">
-                                <p>Select a location, to read more about it.</p>
+                            <div class="col-12 col-lg-6" id="mapsImage">
+                                <p>Select a location, to see an image of the location...</p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12" id="mapsImage">
-                                <p>Select a location, to see an image of the location...</p>
+                        <div class="row align-content-center justify-content-center">
+                            <div class="col-12 col-lg-6" id="mapsText">
+                                <p>Select a location, to read more about it.</p>
                             </div>
                         </div>
                     </div>
