@@ -19,6 +19,8 @@ let marker2 = L.marker([35.13027443181194, -106.53227049369545]);
 let marker3 = L.marker([35.10839191045314, -106.53554975903837]);
 // Delta Linen Supplies
 let marker4 = L.marker([35.115922947341325, -106.62677721868599]);
+// Pinkman Residence
+let marker5 = L.marker([35.087774916654794, -106.66558720134941]);
 
 
 const placesText = document.getElementById("mapsText");
@@ -45,6 +47,7 @@ function selectPlace(menu) {
         src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/40448570/place_image-image-2473f802-b225-44f0-9f9b-4f6b849fe5db.jpg"
         alt="White Family's House" width="270px">`;
     } else if (menu.value == '2') {
+        marker5.remove();
         marker4.remove();
         marker3.remove();
         marker2.remove();
@@ -57,18 +60,20 @@ function selectPlace(menu) {
         src="https://static.wikia.nocookie.net/breakingbad/images/0/07/SaulOffice.png"
         alt="Better Caul Saul's Office" width="270px">`;
     } else if (menu.value == '3') {
+        marker5.remove();
         marker4.remove();
         marker3.remove();
         marker2.remove();
         marker1.remove();
         let marker = marker3.addTo(mymap);
-        marker.bindPopup('<img src="https://na.rdcpix.com/625946635/a545dc497c1d4e1385851ca5e12f5a14w-c0xd-w640_h480_q80.jpg" width="100px" height="100px"><br><p>Walter Whites House</p>').openPopup();
+        marker.bindPopup('<img src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/35017864/place_image-image-b592b300-2fc9-4eb4-983a-79fd385473ce.jpg" width="100px" height="100px"><br><p>Octopus Carwash</p>').openPopup();
         marker.flyTo;
         placesText.innerHTML = `<p>While Walt and Skyler might have been using their A1A Car Wash to clean dirty cash, the real life counterpart, Octopus Car Wash, focuses primarily on cars. You can pull in for a wash, or just snap some photos, as it’s open to the general public.</p>`;
         placesImage.innerHTML = `<img
         src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/35017864/place_image-image-b592b300-2fc9-4eb4-983a-79fd385473ce.jpg"
         alt="A1A Car Wash" width="270px">`;
     } else if (menu.value == '4') {
+        marker5.remove();
         marker4.remove();
         marker3.remove();
         marker2.remove();
@@ -80,5 +85,18 @@ function selectPlace(menu) {
         placesImage.innerHTML = `<img
         src="https://i.pinimg.com/originals/42/c8/9a/42c89ab7c6af2d5992fac46ce59ca29d.jpg"
         alt="Delta Linen Supply" width="270px">`;
+    } else if (menu.value == '5') {
+        marker5.remove();
+        marker4.remove();
+        marker3.remove();
+        marker2.remove();
+        marker1.remove();
+        let marker = marker5.addTo(mymap);
+        marker.bindPopup('<img src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/1026991796/place_image-image-f96dfd10-e061-4afc-892c-c2103a7b1a6d.jpg" width="100px" height="100px"><br><p>Pinkman Residence</p>').openPopup();
+        marker.flyTo;
+        placesText.innerHTML = `<p>This place is on private property. Listing for informational purposes only. Please do not visit without express permission from the land owner. This private residence is the external filming location of Jesse Pinkman's home, on the television program 'Breaking Bad'. It has appeared in every season of the series, and is a favorite spot to visit among fans of the show.  This is a private residence, so please remember to observe respectfully from the road."</p>`;
+        placesImage.innerHTML = `<img
+        src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/1026991796/place_image-image-f96dfd10-e061-4afc-892c-c2103a7b1a6d.jpg"
+        alt="The Pinkman Residence" width="270px">`;
     }
 }
