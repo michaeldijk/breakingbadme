@@ -77,6 +77,7 @@ There is also an interactive **"places"** (`places.html`) page, which gives some
 * [Bootstrap5](https://getbootstrap.com/) - Framework used for the website
 * [Font Awesome](https://fontawesome.com/) - All icons are taken from Font Awesome
 * [jQuery](https://jquery.com/) - JavaScript library used
+* [Photoshop](https://www.adobe.com/ie/products/photoshop.html?promoid=PC1PQQ5T&mv=other) - For changing image sizes, and saving them in the appropriate formats
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Used for general testing, fixing coding bugs, adjusting styling
 * [Visual Studio Code](https://code.visualstudio.com/) - My main IDE for creating the site and JS / CSS
 * [Git](https://git-scm.com/) - Local environment for version control
@@ -93,8 +94,39 @@ There is also an interactive **"places"** (`places.html`) page, which gives some
 ### Deployment
 
 ### Credits
+
 #### Code
+##### HTML
+* [Bootstrap5](https://getbootstrap.com/) - I used Bootstrap 5.0.0 BETA as my framework
+* [Favicon-Generator](https://www.favicon-generator.org/) - Used to generate the favicon icon, and code to accompany the icon
+* [Favicon-Generator](https://www.favicon-generator.org/) - Used to generate the favicon icon, and code to accompany the icon
+* [Codeply | Skelly](https://www.codeply.com/p/P0KN7DNsEq) - Used example #1, and adjusted it to suit my site/needs, as I wanted to style the dark/lightmode button on the right, center Navbar-Brand and left the links to the site, this example showed exactly how to use the Bootstrap Navbar.
+
+
+##### CSS
+* [CSS-Tricks](https://css-tricks.com/perfect-full-page-background-image/) - For help with getting the main section image to align, centered and on each device.
+* [W3schools](https://www.w3schools.com/css/css3_object-fit.asp) - Helped me with allowing images not to resize to much, on the random Character generator on the main page
+
+##### JavaScript
+* [Stack overflow](https://stackoverflow.com/questions/26709969/call-javascript-function-onchange-event-of-dropdown-list) - Used this as a partial solution to create my dropdown selection in the Characters page, adjusted it to suit my code, and need.
+* [Stack overflow](https://stackoverflow.com/questions/18368319/toggle-css-sheets-on-click-with-javascript) - Used this code partially & adjusted with the help of the reference below, adjusted it to suit my needs/site
+* [Prototypr BLOG](https://blog.prototypr.io/create-your-own-dark-mode-using-js-css-variables-and-localstorage-8b461864644b) - Did not exactly know how to tackle localStorage variables, but with the help of this site, I was able to make it work
+* [The Breaking Bad API](https://breakingbadapi.com/) - Used to create / generate the API results for the Characters and Quote section on the index page, and also on the separate Characters page
+
 #### Content
-#### Media
+##### Media
+* [Wallpaper Memory](https://wallpapermemory.com/desktop-backgrounds/tv-show-serial/breaking-bad) - For most Breaking Bad main section images
+* Image for Viability/Feasibility/Importance - used from the course materials from [Code Institute](https://codeinstitute.net/)
+* [Flaticon](https://www.flaticon.com/pattern/) - To create the patterned background for the dark/light theme
+* [Noun Project](https://thenounproject.com/term/heisenberg/217221/) - Used to create my favicon ICON
+* [Favicon-Generator](https://www.favicon-generator.org/) - Used to generate the favicon icon, and code to accompany the icon
+
+##### Text
+* [Ranker](https://www.ranker.com/app/search.htm?q=breaking%20bad) - Used to find lists for each season for the show, and accompanying texts for each episode, and order them according to rank from ranker.com
+
+##### General
+* [FANDOM](https://breakingbad.fandom.com/wiki/Colors) - Used to help me with finding colours for the site's light theme and dark theme.
+
 
 ### Acknowledgements
+* My Mentor, who helped me a lot, and made time available, when needed: [Antonio Rodriguez](https://github.com/AkaAnto)
