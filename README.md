@@ -106,7 +106,22 @@ The users should get enjoyment and laughter out of the website, something that s
 | 6 | As a visitor, I want to be able to contact the owner, if something does not work | - Ability to go to a contact page, then fill in my details, and send it to the site owner |
 
 #### Structure Plane
+Information is organized in a tree-form structure, and it all links from the home-page to the next page and each page links back to the previous one, this is done from the menu on top, or from the burger menu, when on mobile-view windows.
+
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/otherFiles/navigation.png)
+
+I also included additional links to the **"trivia"** (`trivia.html`) page, from:
+* Characters
+* Episodes
+* Places
+
+As once this is read, it would be a good hint to link to the **"trivia"** (`trivia.html`) page, as they can then test their knowledge.
+
+Later onwards, if needed/possible, we can integrate more options, but, an easy navigation, helps in good design flow and structure, and keeps users on the site.
+
 #### Skeleton Plane
+
+
 #### Surface Plane
 
 ### Features
