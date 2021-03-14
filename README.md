@@ -100,8 +100,7 @@ The users should get enjoyment and laughter out of the website, something that s
 | ------------- | ------------- | ------------- |
 | 1 | As a visitor, I want to find information about a certain character | - Ability to click on a list of characters, to find more details about this certain character |
 | 2 | As a visitor, I want to find information about (a) location(s) | - Ability to click on a locations page, to choose from a selection of locations, to view more detailed information about it |
-| 3 | As a visitor, I want to play a game, or test my knowledge about the series | - Ability to go to a game/quiz, and test knowledge about the Series
-- Ability to read up about the Series before starting the game/quiz |
+| 3 | As a visitor, I want to play a game, or test my knowledge about the series | - Ability to go to a game/quiz, and test knowledge about the Series - Ability to read up about the Series before starting the game/quiz |
 | 4 | As a visitor, and a dark theme user, I want to adjust the site, so that it suits my style/needs | - Ability to click on a button, and select light or dark theme, and it then saves that feature, inside the memory, allowing it to be returned at a later stage, and that feature still to be saved as preset |
 | 5 | As a visitor, I want the site to be easy to navigate, and intuitive to use | - Open the site, either on mobile or larger view-window, and able to easily navigate the site due to intuitive design, and clear / well guided navigation |
 | 6 | As a visitor, I want to be able to contact the owner, if something does not work | - Ability to go to a contact page, then fill in my details, and send it to the site owner |
