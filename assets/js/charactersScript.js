@@ -39,4 +39,18 @@ function charactersDropdownSelection(value) {
             document.getElementById("characterImage1").src = charactersArray[i].img
         }
     }
+};
+
+function charactersRandomInput() {
+    if (charactersArray.length > 0) {
+        randomIndex = Math.floor(Math.random() * charactersArray.length) - 1;
+        randomCharacter = charactersArray[randomIndex];
+        document.getElementById("charactersRandomSelect").insertAdjacentHTML("afterbegin", `${randomCharacter.name}`);
+        console.log(randomCharacter);
+    }
 }
+
+// Seem to not get the charactersRandomInput to work.
+// I tried body onload = charactersRandomInput(), I also tried https://www.bitdegree.org/learn/best-code-editor/javascript-onload-example-4, and I tried http://jsfiddle.net/9Bnkc/, without solution
+// Will discuss with my mentor
+// Also tried with innertext, innerhtml insertadjecenthtml...
