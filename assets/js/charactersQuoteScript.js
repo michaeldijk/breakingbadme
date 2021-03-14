@@ -28,6 +28,25 @@ function loadChars(cb) {
     };
 }
 
+// With the help of my mentor, Antonio, I've been able to solve the Random Quote image issue.
+function findCharactersImage(charName) {
+    console.log("Looking for ", charName);
+    char = charactersArray.filter(function (character) {
+        console.log("compare ", character.name, charName, character.name.localeCompare(charName));
+        return character.name.localeCompare(charName) === 0;
+    });
+    if (char[0]) {
+        return char[0].img;
+        // End reference from my Mentor, below is what I wrote myself
+    } else {
+        char = charactersArray.filter(function (character) {
+            console.log("compare else name:", character.nickname, charName, character.nickname.localeCompare(charName));
+            return character.nickname.localeCompare(charName) === 0;
+        });
+    }
+    return char[0].img;
+}
+
 // Function which loads in, if button is pressed to show quote on the site.
 function showQuotes() {
     // Prevent button from moving browser back to top, as this is default behaviour
@@ -41,6 +60,7 @@ function showQuotes() {
   <p class="mb-0">${randomQuotes.quote}</p>
   <footer class="blockquote-footer">${randomQuotes.author}</footer>
 </blockquote>`);
+        document.getElementById("quotesImage").setAttribute("src", findCharactersImage(randomQuotes.author))
     } else {
         alert("There is a problem with Random Quotes... Please send me an email so I can fix it...");
     }
