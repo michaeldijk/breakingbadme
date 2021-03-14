@@ -54,9 +54,39 @@ People who are fans of Breaking Bad, and want to know more about the series. The
 There is also an interactive **"places"** (`places.html`) page, which gives some insights in the locations where it was filmed.
 
 ### Who is the Owner?
+Michael Dijk, is the owner of the site, and my aim for this website, was to make an interactive site, with the subject Breaking Bad. I wanted to go with a different project than the project options that where given by [Code Institute](https://codeinstitute.net/), and I then came up with Breaking Bad. To create a topic within the guidelines of the Project requirements, the site has the following features, and these features are in line with the guidelines for the example project options:
+* A game **"Trivia"** (`trivia.html`), not a memory game, but a game nonetheless.
+* Interactivity **"from the main page"** (`index.html`), where users can get a randomized character and also a randomized quote, **"Trivia"** (`trivia.html`) where users can test their knowledge about Breaking Bad, and lastly, **"Places"** (`places.html`), where users can click through a dropdown option, and select several places where Breaking Bad has been recorded.
+* I called on an API, from [The Breaking Bad API](https://breakingbadapi.com/), and used it for the random quote/character on the **"homepage"** (`index.html`), and also on the **"characters"** (`characters.html`) page.
+* I called on an API, from leafletJS, to incorporate a maps function, which allows users to select from a list of locations, from a dropdown option
+* I created interactivity, which remembers the option (themeable) and allows users to select dark/light theme, which is stored in localStorage.
+* I also incorporated a contact page, which uses emailJS, as the email function.
 
 ### UX Planes
+The following parts, describe the different planes and how I incorporated them into my project
+
 #### Strategy Plane
+The audience is geared towards new viewers of the show who are interested in getting to know more about Breaking Bad, fans who are looking to read up about some fun facts, for instance the locations where it was recorded, quotes from a character, and/or finding more information about a certain character. Read up about the episodes, and find an episode from a certain season.
+
+I am making an interactive FAN site, about Breaking Bad, called breakingBadMe, with interactivity coming from several APIs, feeding into different parts of the site, it also incorporates a quiz, locations page, and the locations page uses leafletJS, as opposed to Google Maps.
+
+The site will bring enjoyment, information on the series, and some quirky information which you could not find on other sites so easily.
+
+The user/visitor will get an insight in Breaking Bad the series, Characters, places & episodes and also there is a contact form, in case something isn't working, they are able to contact me, or, they can contact me, to give their opinion about the site, or contact me in general.
+
+I had planned the following as roadmap:
+| #  | Opportunity/Problem |  Importance | Viability/Feasibility |
+| ------------- | ------------- | ------------- | ------------- |
+| 1  | Finding information about certain character(s)  | 5  | 3  |
+| 2  | Finding information about certain episode(s)  | 3  | 1  |
+| 3  | Random Quote / Character / death generator  | 5  | 5  |
+| 4  | Google Maps with location pinpoints, to POI  | 5  | 5  |
+| 5  | Funny things to know about the show  | 3  | 5  |
+| 6  | Dark/light mode for the site  | 5  | 5  |
+| 7  | Trivia game? Drag/drop game to test user knowledge  | 3  | 3  |
+
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/otherFiles/viabilityFeasibility.png)
+
 #### Scope Plane
 #### Structure Plane
 #### Skeleton Plane
