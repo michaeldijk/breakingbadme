@@ -56,7 +56,7 @@ There is also an interactive **"places"** (`places.html`) page, which gives some
 ### Who is the Owner?
 Michael Dijk, is the owner of the site, and my aim for this website, was to make an interactive site, with the subject Breaking Bad. I wanted to go with a different project than the project options that where given by [Code Institute](https://codeinstitute.net/), and I then came up with Breaking Bad. To create a topic within the guidelines of the Project requirements, the site has the following features, and these features are in line with the guidelines for the example project options:
 * A game **"Trivia"** (`trivia.html`), not a memory game, but a game nonetheless.
-* Interactivity **"from the main page"** (`index.html`), where users can get a randomized character and also a randomized quote, **"Trivia"** (`trivia.html`) where users can test their knowledge about Breaking Bad, and lastly, **"Places"** (`places.html`), where users can click through a dropdown option, and select several places where Breaking Bad has been recorded.
+* Interactivity on the **"homepage"** (`index.html`), where users can get a randomized character and also a randomized quote, **"Trivia"** (`trivia.html`) where users can test their knowledge about Breaking Bad, and lastly, **"Places"** (`places.html`), where users can click through a dropdown option, and select several places where Breaking Bad has been recorded.
 * I called on an API, from [The Breaking Bad API](https://breakingbadapi.com/), and used it for the random quote/character on the **"homepage"** (`index.html`), and also on the **"characters"** (`characters.html`) page.
 * I called on an API, from leafletJS, to incorporate a maps function, which allows users to select from a list of locations, from a dropdown option
 * I created interactivity, which remembers the option (themeable) and allows users to select dark/light theme, which is stored in localStorage.
@@ -86,6 +86,9 @@ I had planned the following as roadmap:
 | 7  | Trivia game? Drag/drop game to test user knowledge  | 3  | 3  |
 
 ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/otherFiles/viabilityFeasibility.png)
+
+##### What can/could be covered?
+I decided I could cover all aspects of the site, as most of the options fell inside of the last bracket, or the second bracket, thus, allowing me to incorporate each topic/option.
 
 #### Scope Plane
 #### Structure Plane
