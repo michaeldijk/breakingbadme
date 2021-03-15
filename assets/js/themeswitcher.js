@@ -34,3 +34,25 @@ function toggleDarkLightTheme() {
 // https://stackoverflow.com/questions/18368319/toggle-css-sheets-on-click-with-javascript
 
 // Adjusted this to suit my code/needs, so it worked with localStorage & button on the site
+
+function randomBackground() {
+    const styleSheet = document.getElementById("cssStyling").href;
+    const img = ["1.jpg", "2.jpg", "3.jpg", "4.jpg"];
+    const size = img.length;
+    const x = Math.floor(size * Math.random());
+
+    if (styleSheet.includes("darkstyle.css")) {
+        // alert("it does include");
+        document.styleSheets[2].deleteRule(19);
+        document.styleSheets[2].insertRule(`.mainImageRow { height: 95vh; background: url(../images/darkmode/${img[x]}) no-repeat center center fixed; background-size: cover; }`, 19);
+    } else if (styleSheet.includes("lightstyle.css")) {
+        // alert("it does not include");
+        document.styleSheets[2].deleteRule(19);
+        document.styleSheets[2].insertRule(`.mainImageRow { height: 95vh; background: url(../images/lightmode/${img[x]}) no-repeat center center fixed; background-size: cover; }`, 19);
+    } else {
+        alert("Background changer is broken, please send me an email/n so I can fix it...");
+    }
+};
+
+// Found help through the following link: https://stackoverflow.com/questions/31277685/change-background-image-of-a-div-everytime-page-refresh
+// Adjusted it to suit my needs, and changed it.
