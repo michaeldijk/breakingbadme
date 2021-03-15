@@ -143,7 +143,7 @@ With the help of [FANDOM](https://breakingbad.fandom.com/wiki/Colors), I was abl
 ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/surface/darkthemeColoursRatio2.png)
 
 ##### Light theme
-![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/surface/liightthemeColours.png)
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/surface/lightthemeColours.png)
 * Font/text colour: 0B0B0A
 * Background colour: AFDAA9
 * Background accent colour: 4AECE0
