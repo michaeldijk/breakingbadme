@@ -5,7 +5,7 @@
 
 This is a website created as a homage to a series, that is dear to my heart, I wanted to create a fan-site, covering what I've learned so far in my studies, and, also, making it interactive for the visitors, with JavaScript, CSS and HTML.
 
-The site is created with a Mobile first approach, but, works great on larger viewwindows / computers as well. It covers interactivity from the front-page to the Trivia page, to the Characters page.
+The site is created with a Mobile first approach, but, works great on larger viewwindows / computers as well. It covers interactivity from the front-page to the Trivia page, to the Characters page, and to the contact page.
 
 The site had to be well visible on all devices, have an interactive and intuitive design, and, look pleasing to the eye.
 
@@ -110,19 +110,38 @@ Information is organized in a tree-form structure, and it all links from the hom
 
 ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/otherFiles/navigation.png)
 
-I also included additional links to the **"trivia"** (`trivia.html`) page, from:
-* Characters
-* Episodes
-* Places
-
-As once this is read, it would be a good hint to link to the **"trivia"** (`trivia.html`) page, as they can then test their knowledge.
+I wanted to included additional links to the **"trivia"** (`trivia.html`) page, from each other page, but decided this was to "crowded", and removed the links.
 
 Later onwards, if needed/possible, we can integrate more options, but, an easy navigation, helps in good design flow and structure, and keeps users on the site.
 
 #### Skeleton Plane
+I've used [Bootstrap5, BETA2](https://getbootstrap.com/) as the framework, and the design has been created with a "mobile first" option. I've worked my way up from mobile to desktop view.
 
+Click the respective links below, to see wireframing for each page.
+* [Wireframes: index (homepage)](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/index.png)
+* [Wireframes: Characters](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/characters.png)
+* [Wireframes: Episodes](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/episodes.png)
+* [Wireframes: Places](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/places.png)
+* [Wireframes: Trivia](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/trivia.png)
+* [Wireframes: Contact](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/contact.png)
 
 #### Surface Plane
+I'm colour-blind, so picking the right colours is sometimes a bit tricky. Nonetheless, it has worked out very well, as I have two different colour schemes for the site:
+* Dark themed colours
+* Light themed colours
+
+With the help of [FANDOM](https://breakingbad.fandom.com/wiki/Colors), I was able to get the colours for the site, and with the help of [CONTRAST CHECKER](https://contrastchecker.com/), I was able to find the right contrast ratio's for the colours used.
+
+##### Dark theme
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/surface/darkthemeColours.png)
+* Font/text colour: DFD4C5
+* Background colour: 1D1D1A
+* Background accent colour: 182D23
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/surface/darkthemeColoursRatio1.png)
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/surface/darkthemeColoursRatio2.png)
+
+##### Light theme
+
 
 ### Features
 #### Home
@@ -138,7 +157,7 @@ Later onwards, if needed/possible, we can integrate more options, but, an easy n
 * [CSS3](https://en.wikipedia.org/wiki/CSS) - Styling for the site as a whole
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Adding interactivity
 * [Google Fonts](https://fonts.google.com/) - For the fonts used
-* [Bootstrap5](https://getbootstrap.com/) - Framework used for the website
+* [Bootstrap5, BETA2](https://getbootstrap.com/) - Framework used for the website
 * [Font Awesome](https://fontawesome.com/) - All icons are taken from Font Awesome
 * [jQuery](https://jquery.com/) - JavaScript library used
 * [Photoshop](https://www.adobe.com/ie/products/photoshop.html?promoid=PC1PQQ5T&mv=other) - For changing image sizes, and saving them in the appropriate formats
@@ -161,7 +180,7 @@ Later onwards, if needed/possible, we can integrate more options, but, an easy n
 
 #### Code
 ##### HTML
-* [Bootstrap5](https://getbootstrap.com/) - I used Bootstrap 5.0.0 BETA as my framework
+* [Bootstrap5, BETA2](https://getbootstrap.com/) - I used Bootstrap 5.0.0 BETA as my framework
 * [Favicon-Generator](https://www.favicon-generator.org/) - Used to generate the favicon icon, and code to accompany the icon
 * [Codeply | Skelly](https://www.codeply.com/p/P0KN7DNsEq) - Used example #1, and adjusted it to suit my site/needs, as I wanted to style the dark/lightmode button on the right, center Navbar-Brand and left the links to the site, this example showed exactly how to use the Bootstrap Navbar.
 
@@ -191,6 +210,8 @@ Later onwards, if needed/possible, we can integrate more options, but, an easy n
 
 ##### General
 * [FANDOM](https://breakingbad.fandom.com/wiki/Colors) - Used to help me with finding colours for the site's light theme and dark theme.
+* [coolors](https://coolors.co/) - Assisted in fiinding the right colour pallete
+* [CONTRAST CHECKER](https://contrastchecker.com/) - Assisted in finding the right balance from foreground / background colours
 
 
 ### Acknowledgements
