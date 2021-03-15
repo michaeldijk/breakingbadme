@@ -41,7 +41,7 @@
     <title>breakingBadMe!</title>
 </head>
 
-<body onLoad="loadQoutes(); loadChars()">
+<body onLoad="loadQoutes(); loadChars(); randomBackground();">
 
     <!-- Start of header section (Navbar etc.) -->
     <header>
@@ -88,7 +88,8 @@
     <!-- Start of main content section -->
     <section>
         <div class="container-fluid">
-            <div class="row bg-secondary mainImageRow align-content-center justify-content-center">
+            <div class="row bg-secondary mainImageRow align-content-center justify-content-center"
+                id="ChangeBackground">
                 <div class="col-8">
                     <h1 class="mainSectionIntroText">The fan site, that delivers you all the information you need about
                         Breaking Bad.</h1>
