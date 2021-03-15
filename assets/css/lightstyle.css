@@ -38,7 +38,7 @@ h3 {
 .btn-check:focus+.btn,
 .btn:focus {
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
+    box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 25%);
 }
 
 .btn:hover {
@@ -191,6 +191,37 @@ a:hover {
 /* ==================== Episode Styling */
 .episodeAccButton {
     display: block;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #AFDAA9;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #000000;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 25%);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #AFDAA9;
+    border-color: #000000;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #DFD4C5;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 25%);
+}
+
+.accordion-button.collapsed {
+    color: #000000;
+    background-color: #AFDAA9;
+    border-color: #000000;
 }
 
 /* ==================== Contact Styling */
