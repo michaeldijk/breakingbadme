@@ -137,7 +137,9 @@ With the help of [FANDOM](https://breakingbad.fandom.com/wiki/Colors), I was abl
 * Font/text colour: DFD4C5
 * Background colour: 1D1D1A
 * Background accent colour: 182D23
+* Contrast Checker, using background-colour and text:
 ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/surface/darkthemeColoursRatio1.png)
+* Contrast Checker, using accent-colour and text:
 ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/surface/darkthemeColoursRatio2.png)
 
 ##### Light theme
