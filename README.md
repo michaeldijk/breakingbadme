@@ -175,6 +175,8 @@ Later onwards, if needed/possible, we can integrate more options, but, an easy n
 * [Stack overflow](https://stackoverflow.com/questions/18368319/toggle-css-sheets-on-click-with-javascript) - Used this code partially & adjusted with the help of the reference below, adjusted it to suit my needs/site
 * [Prototypr BLOG](https://blog.prototypr.io/create-your-own-dark-mode-using-js-css-variables-and-localstorage-8b461864644b) - Did not exactly know how to tackle localStorage variables, but with the help of this site, I was able to make it work
 * [The Breaking Bad API](https://breakingbadapi.com/) - Used to create / generate the API results for the Characters and Quote section on the index page, and also on the separate Characters page
+* [Stack Overflow](https://stackoverflow.com/questions/31277685/change-background-image-of-a-div-everytime-page-refresh) - This page helped me solve my background changer. I wanted to change it on reload, and this helped me, adjusted code, and changed it appropriately to make it work with my own site.
+* [MDN Web Docs](https://developer.mozilla.org/en-US/) - This has been a great help, in solving and understanding Javascript functions / statements / and other information I needed to find.
 
 #### Content
 ##### Media
