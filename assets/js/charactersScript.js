@@ -47,8 +47,16 @@ function charactersRandomInput() {
         randomCharacter = charactersArray[randomIndex];
         document.getElementById("charactersRandomSelect").insertAdjacentHTML("afterbegin", `${randomCharacter.name}`);
         console.log(randomCharacter);
+    } else {
+        alert("The Random Characters input is broken,/n Please send me an email..")
     }
 }
+
+// // document.addEventListener("DOMContentLoaded", charactersRandomInput, true);
+
+// window.onload = (event) => {
+//     charactersRandomInput();
+// };
 
 // Seem to not get the charactersRandomInput to work.
 // I tried body onload = charactersRandomInput(), I also tried https://www.bitdegree.org/learn/best-code-editor/javascript-onload-example-4, and I tried http://jsfiddle.net/9Bnkc/, without solution
