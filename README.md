@@ -184,6 +184,41 @@ With the help of [FANDOM](https://breakingbad.fandom.com/wiki/Colors), I was abl
 ### Version Control
 
 ### Deployment
+The project was developed using a local IDE, and with the integration of git, which allowed me to push each change towards my GitHub Repository.
+This project has been deployed on GitHub pages.
+
+#### How to deploy this on GitHub
+1. Login into GitHub.
+1. From the list of available repositories, the correct repository was chosen: michaeldijk/breakingbadme
+1. Once the repository was opened, Settings was selected from the third menu on the top, this is the icon with the gear wheel.
+1. Once in the Settings page, scrolled down to the bottom, where it mentions GitHub Pages.
+1. The correct source was then selected, this was set to Master Branch, as we haven’t made any other branches after this one.
+1. Once Master Branch was selected, the page was then automatically refreshed and under GitHub Pages you will then see: " Your site is published at https://michaeldijk.github.io/breakingbadme/”
+1. After the link was retrieved under the GitHub Pages section, the repository index was then updated to reflect the correct link on top, and to do so, the following steps where performed:
+	1. On the repository index, we selected Edit just below the second menu on top right.
+	1. The correct Repository name was then added with its corresponding GitHub.io link
+
+### How to run this project locally
+To clone this project to a local IDE of your choice you would have to follow the steps below, using GitHub:
+1. Open GitHub, and navigate to the repository page michaeldijk/ms1
+1. Under the repository name, click "Code”
+1. In the Code pop-up window, you select “HTTPS” but, this should be the default selection, copy the clone URL for the repository
+1. Open Git Bash in your local IDE
+1. Change the working directory to the directory where you want the cloned directory to be made
+1. Type `git clone`, and then paste the URL that you've retrieved in step 3. `git clone https://github.com/michaeldijk/breakingbadme.git`
+1. You then press Enter. Your local clone will be created. 
+```
+$ git clone https://github.com/michaeldijk/breakingbadme.git
+Cloning into 'breakingbadme'...
+remote: Enumerating objects: 221, done.
+remote: Counting objects: 100% (221/221), done.
+remote: Compressing objects: 100% (149/149), done.
+remote: Total 863 (delta 118), reused 172 (delta 72), pack-reused 642
+Receiving objects: 100% (863/863), 14.23 MiB | 18.06 MiB/s, done.
+Resolving deltas: 100% (433/433), done.
+```
+1. After receiving confirmation that clone was "done", you can then open/work on the files that are downloaded to the folder of your choosing, you can also open the directory through your local IDE, and work on it from there onwards.
+1. You can afterwards, push this to a different branch, on the repository, in case you want to provide additional code towards my the downloaded project.
 
 ### Credits
 
