@@ -221,6 +221,7 @@ Resolving deltas: 100% (433/433), done.
 1. You can afterwards, push this to a different branch, on the repository, in case you want to provide additional code towards my the downloaded project.
 
 ### Credits
+I have used several sources to contribute to solutions, and all sources that was used are attributed in my code. None of the solutions found, have been copied, but rather used as a starting point, to create my own code with the guidance of the solutions provided.
 
 #### Code
 ##### HTML
@@ -256,7 +257,6 @@ Resolving deltas: 100% (433/433), done.
 * [FANDOM](https://breakingbad.fandom.com/wiki/Colors) - Used to help me with finding colours for the site's light theme and dark theme.
 * [coolors](https://coolors.co/) - Assisted in fiinding the right colour pallete
 * [CONTRAST CHECKER](https://contrastchecker.com/) - Assisted in finding the right balance from foreground / background colours
-
 
 ### Acknowledgements
 * My Mentor, who helped me a lot, and made time available, when needed: [Antonio Rodriguez](https://github.com/AkaAnto)
