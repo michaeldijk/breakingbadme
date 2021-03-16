@@ -184,10 +184,10 @@ This page further changes according to view-window, and larger windows, have a d
 
 
 #### Contact
-
+* The contact page, has a contact section, where users can send a request, or, just send in feedback. The contact form, is incorporated with emailJS, and, it sends a pop-up, once the form is processed, that it's send out.
 
 #### Features left to implement
-
+* 
 
 ### Technologies Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML) - General website MarkUp
@@ -209,6 +209,7 @@ The following section, describes how the site and it's features have been tested
 #### User Story Testing
 #### Manual testing across devices / Browsers
 #### JavaScript
+#### HTML
 #### Unsolved Issues
 
 ### Version Control
