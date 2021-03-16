@@ -153,13 +153,44 @@ With the help of [FANDOM](https://breakingbad.fandom.com/wiki/Colors), I was abl
 ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/surface/lightthemeColoursRatio2.png)
 
 ### Features
+The site incorporates many different features, and, the use of several APIs, to create the features available. Below, is a description per page, and the features each page contains.
+
+#### General
+* Dark/Light theme: each page contains a button to change the theme from light to dark, or vise versa, and the default theme is the dark theme. Upon changing the theme, it then is captures on `localStorage`, and saved with a preset of `key: theme` and `value: lightstyle` or `darkstyle`.
+* Random background image: Each page contains a random background image, and these images are cycled through from one to four. Both dark theme and light theme, have four separate images, it cycles through.
+* main image, is set to a height of `85vh` to allow an introduction of the section below it, this indicates there is more content below. I originally wanted to use a scroll down icon, which moved, but, this would take away from the overall asteatic of the site.
+* Each page, has an introductory text, in the main image.
+
 #### Home
+* Random Character: This is a feature, that when the user wants to read up about a character, they can press the button **Click here, for another Character** and it will then generate a new character in the field available. The random character then shows several details: Occupation, Nickname, Portrayed by, and it includes an image from the character (if available).
+* Random Quote: This is a feature, that when the user wants to read up about a quote, they can press the button **Click here, for another quote** and it will then generate a quote, randomized. It then shows two things: The quote itself, and who said it. It also generates an image of the author (if available).
+* Link to the trivia quiz: there is a link at the bottom of the main section, which goes directly to the **"Trivia"** (`trivia.html`) page.
+
 #### Characters
+The characters page, makes use of the same array, that was used on the **"Home"** (`index.html`) page, but instead of randomizing it, it generates a list in dropdown, where the user/visitor can choose from. Once a character is selected, it generates several options:
+    * Image
+    * Nickname
+    * Birthday (if known)
+    * If they are dead or alive, when the series finished
+    * Occupation
+    * Which seasons they appeared in
+    * Who portrayed them in the series
+* The characters introduction, also has a random character name, in it, so each time the page loads, it then changes the name, in the intro text: "There are some characters you just won't forget anymore... Like [name comes here]".
+
 #### Episodes
+
+
 #### Places
+
+
 #### Trivia
+
+
 #### Contact
+
+
 #### Features left to implement
+
 
 ### Technologies Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML) - General website MarkUp
