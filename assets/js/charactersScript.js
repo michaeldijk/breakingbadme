@@ -45,8 +45,8 @@ function charactersRandomInput() {
     if (charactersArray.length > 0) {
         randomIndex = Math.floor(Math.random() * charactersArray.length) - 1;
         randomCharacter = charactersArray[randomIndex];
-        document.getElementById("charactersRandomSelect").insertAdjacentHTML("afterbegin", `${randomCharacter.name}`);
-        console.log(randomCharacter);
+        document.getElementById("charactersRandomSelect").innerText = randomCharacter.name;
+        console.log(randomCharacter.name);
     } else {
         alert("The Random Characters input is broken,/n Please send me an email..")
     }
