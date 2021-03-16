@@ -168,13 +168,13 @@ The site incorporates many different features, and, the use of several APIs, to 
 
 #### Characters
 The characters page, makes use of the same array, that was used on the **"Home"** (`index.html`) page, but instead of randomizing it, it generates a list in dropdown, where the user/visitor can choose from. Once a character is selected, it generates several options:
-    * Image
-    * Nickname
-    * Birthday (if known)
-    * If they are dead or alive, when the series finished
-    * Occupation
-    * Which seasons they appeared in
-    * Who portrayed them in the series
+    1 Image
+    2 Nickname
+    3 Birthday (if known)
+    4 If they are dead or alive, when the series finished
+    5 Occupation
+    6 Which seasons they appeared in
+    7 Who portrayed them in the series
 * The characters introduction, also has a random character name, in it, so each time the page loads, it then changes the name, in the intro text: "There are some characters you just won't forget anymore... Like [name comes here]".
 
 #### Episodes
