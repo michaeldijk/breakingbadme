@@ -167,21 +167,18 @@ The site incorporates many different features, and, the use of several APIs, to 
 * Link to the trivia quiz: there is a link at the bottom of the main section, which goes directly to the **"Trivia"** (`trivia.html`) page.
 
 #### Characters
-The characters page, makes use of the same array, that was used on the **"Home"** (`index.html`) page, but instead of randomizing it, it generates a list in dropdown, where the user/visitor can choose from. Once a character is selected, it generates several options:
-    1 Image
-    2 Nickname
-    3 Birthday (if known)
-    4 If they are dead or alive, when the series finished
-    5 Occupation
-    6 Which seasons they appeared in
-    7 Who portrayed them in the series
+* The characters page, makes use of the same array, that was used on the **"Home"** (`index.html`) page, but instead of randomizing it, it generates a list in dropdown, where the user/visitor can choose from. Once a character is selected, it generates several options: an image, the nickname, birthday (if known), if they are dead or alive, when the series finished, occupation, which seasons they appeared in and who portrayed them in the series.
 * The characters introduction, also has a random character name, in it, so each time the page loads, it then changes the name, in the intro text: "There are some characters you just won't forget anymore... Like [name comes here]".
 
 #### Episodes
+* All the episodes are displayed in an accordion style list. It goes per season, and inside the seasons, they are further displayed in an accordion style, per episode.
 
+Each season, is categorized in ranking, from [Ranker](https://www.ranker.com/app/search.htm?q=breaking%20bad)'s site, and they are ordered from high to low sccores, so not from one to episode 13.
 
 #### Places
+* I incorporated several places where Breaking Bad has been recorded, and, you can select from a dropdown, and, it then populates a map, with location, and further, it also adds an image and small description about the location itself.
 
+This page further changes according to view-window, and larger windows, have a different view, with image on left besides the map, and description below it.
 
 #### Trivia
 
@@ -207,6 +204,8 @@ The characters page, makes use of the same array, that was used on the **"Home"*
 * [GitHub](https://github.com/) - Online version control, place to store data, and allow online visibility of the project
 
 ### Testing
+The following section, describes how the site and it's features have been tested, to make sure it works across the different view-windows and browsers.
+
 #### User Story Testing
 #### Manual testing across devices / Browsers
 #### JavaScript
@@ -259,7 +258,6 @@ I have used several sources to contribute to solutions, and all sources that was
 * [Bootstrap5, BETA2](https://getbootstrap.com/) - I used Bootstrap 5.0.0 BETA as my framework
 * [Favicon-Generator](https://www.favicon-generator.org/) - Used to generate the favicon icon, and code to accompany the icon
 * [Codeply | Skelly](https://www.codeply.com/p/P0KN7DNsEq) - Used example #1, and adjusted it to suit my site/needs, as I wanted to style the dark/lightmode button on the right, center Navbar-Brand and left the links to the site, this example showed exactly how to use the Bootstrap Navbar.
-
 
 ##### CSS
 * [CSS-Tricks](https://css-tricks.com/perfect-full-page-background-image/) - For help with getting the main section image to align, centered and on each device.
