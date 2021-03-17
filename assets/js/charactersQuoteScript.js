@@ -4,7 +4,7 @@ let quotesArray = [];
 
 // Load quotes from BreakingBadAPI.com, and store them inside QuotesArray to work from later
 function loadQoutes() {
-    let xhr = new XMLHttpRequest();
+    const xhr = new XMLHttpRequest();
     xhr.open("GET", "https://www.breakingbadapi.com/api/quotes");
     xhr.send();
     xhr.onreadystatechange = function () {
@@ -15,7 +15,7 @@ function loadQoutes() {
 }
 // Load Characters from BreakingBadAPI.com, and store them inside charactersArray to work from later
 function loadChars(cb) {
-    let xhr = new XMLHttpRequest();
+    const xhr = new XMLHttpRequest();
     xhr.open("GET", "https://www.breakingbadapi.com/api/characters");
     xhr.send();
     xhr.onreadystatechange = function () {
