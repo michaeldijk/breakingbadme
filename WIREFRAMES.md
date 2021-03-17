@@ -3,12 +3,12 @@
 I wanted to add wireframing separately, to avoid overcluttering the main `README`.
 
 ## Table of contents
-* [Index / Home](xxx)
-* [Characters](xxx)
-* [Episodes](xxx)
-* [Places](xxx)
-* [Trivia](xxx)
-* [Contact](xxx)
+* [Index / Home](https://github.com/michaeldijk/breakingbadme/blob/main/WIREFRAMES.md#index--home)
+* [Characters](https://github.com/michaeldijk/breakingbadme/blob/main/WIREFRAMES.md#characters)
+* [Episodes](https://github.com/michaeldijk/breakingbadme/blob/main/WIREFRAMES.md#episodes)
+* [Places](https://github.com/michaeldijk/breakingbadme/blob/main/WIREFRAMES.md#places)
+* [Trivia](https://github.com/michaeldijk/breakingbadme/blob/main/WIREFRAMES.md#trivia)
+* [Contact](https://github.com/michaeldijk/breakingbadme/blob/main/WIREFRAMES.md#contact)
 
 ### Index / home
 ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/index.png)
