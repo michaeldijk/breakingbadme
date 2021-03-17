@@ -245,6 +245,14 @@ a:hover {
     width: 214px;
 }
 
+/* ==================== Trivia page Styling */
+.triviaContainer {
+    background-color: rgb(29 29 27);
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
 /* ==================== Media Queriesss */
 /* iPhone X etc ===== */
 @media only screen and (min-width: 375px) {

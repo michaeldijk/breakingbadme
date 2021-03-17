@@ -258,6 +258,14 @@ a:hover {
     width: 214px;
 }
 
+/* ==================== Trivia page Styling */
+.triviaContainer {
+    background-color: rgb(176 218 170);
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
 /* ==================== Media Queriesss */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 375px) {
