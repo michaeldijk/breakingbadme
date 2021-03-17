@@ -107,38 +107,43 @@
                         giving a wrong answer, it'll deduct one point.</p>
                     <p>If you end up with "0" points, you loose, and you can play again.</p>
                     <!-- Start Quiz -->
-                    <div class="container-fluid randomCharacterColRight">
-                        <!-- Score comes here -->
-                        <div class="row">
-                            <div class="col-12">
-                                <h4>Your score: xxx</h4>
+                    <div class="container-fluid triviaContainer">
+                        <div id="looseEndGame">
+                            <!-- Score comes here -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <h4>Your score: <span id="score">0</span></h4>
+                                </div>
                             </div>
-                        </div>
-                        <!-- Score End -->
-                        <!-- Question / Answer here -->
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-                                <h4>Question comes here</h4>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <div class="row">
-                                    <div class="col-12 pb-2"><button class="btn btnDarkstyle">Answer #1</button>
-                                    </div>
-                                    <div class="col-12 pb-2"><button class="btn btnDarkstyle">Answer #2</button>
-                                    </div>
-                                    <div class="col-12 pb-2"><button class="btn btnDarkstyle">Answer #3</button>
+                            <!-- Score End -->
+                            <!-- Question / Answer here -->
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <h4 id="question">Question comes here</h4>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="row">
+                                        <div class="col-12 pb-2"><button class="btn btnDarkstyle" id="answerA"
+                                                onclick="answerA_clicked()">Answer #1</button>
+                                        </div>
+                                        <div class="col-12 pb-2"><button class="btn btnDarkstyle id=" answerB"
+                                                onclick="answerB_clicked()">Answer #2</button>
+                                        </div>
+                                        <div class="col-12 pb-2"><button class="btn btnDarkstyle" id="answerC"
+                                                onclick="answerC_clicked()">Answer #3</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Question / Answer here end -->
-                        <!-- Right / Wrong answer here -->
-                        <div class="row">
-                            <div class="col-12">
-                                <p>Right / wrong comes here</p>
+                            <!-- Question / Answer here end -->
+                            <!-- Right / Wrong answer here -->
+                            <div class=" row">
+                                <div class="col-12">
+                                    <p id="correctOrNotValue">Right / wrong comes here</p>
+                                </div>
                             </div>
+                            <!-- Right / Wrong answer end here -->
                         </div>
-                        <!-- Right / Wrong answer end here -->
                     </div>
                     <!-- End Quiz -->
                 </div>
