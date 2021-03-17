@@ -266,6 +266,12 @@ a:hover {
         width: auto;
         border-radius: 25px;
     }
+
+    .placesImage {
+        object-fit: contain;
+        height: 250px;
+        width: 260px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -279,6 +285,12 @@ a:hover {
         height: 411px;
         width: auto;
         border-radius: 25px;
+    }
+
+    .placesImage {
+        object-fit: contain;
+        height: 500px;
+        width: 500px;
     }
 }
 
@@ -322,6 +334,12 @@ a:hover {
 
     .randomCharacterColLeft {
         margin-right: 40px;
+    }
+
+    .placesImage {
+        object-fit: contain;
+        height: 250px;
+        width: 390px;
     }
 }
 
