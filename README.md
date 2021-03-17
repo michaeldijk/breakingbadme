@@ -36,6 +36,8 @@ It has two different views, lightmode and darkmode, see mockups below:
 * [Testing](https://github.com/michaeldijk/breakingbadme#testing)
     * [User Story Testing](https://github.com/michaeldijk/breakingbadme#user-story-testing)
     * [Manual testing across devices / browsers](https://github.com/michaeldijk/breakingbadme#manual-testing-across-devices--browsers)
+    * [HTML](https://github.com/michaeldijk/breakingbadme#html)
+    * [CSS](https://github.com/michaeldijk/breakingbadme#css)
     * [JavaScript](https://github.com/michaeldijk/breakingbadme#javascript)
     * [Unsolved issues](https://github.com/michaeldijk/breakingbadme#unsolved-issues)
 * [Version Control](https://github.com/michaeldijk/breakingbadme#version-control)
@@ -203,7 +205,7 @@ The following section, describes how the site and it's features have been tested
 
 #### User Story Testing
 #### Manual testing across devices / Browsers
-#### JavaScript
+
 #### HTML
 ##### Code validator
 When I completed my HTML code, I carried out a validation test, by using [W3C Markup Validation Service](https://validator.w3.org/), which is a worldwide recognized validator created by the WWC, that allows checking HTML and XHTML code, to check if the markup was documented correctly, and to correct any errors found.
@@ -225,6 +227,30 @@ Removed the straying tag, which solved the error.
 ***`episodes.html`:*** [1 Error](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/htmlValidator/episodes.png)
 1. **Error: Stray end tag div.** <br>
 Removed the straying div, which solved this issue.
+
+***`places.html`:*** [2 Errors](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/htmlValidator/places.png)
+1. **Error: Stray end tag div.** <br>
+Fixed error by removing straying tag.
+2. **Error: Stray end tag div.** <br>
+Fixed error by removing straying tag.
+
+***`trivia.html`:*** 
+
+***`contact.html`:*** No errors found.
+
+#### CSS
+* Naming conventions: Made a mistake with the button class I created, as I named it `btnDarkstyle`, but this naming, did not suit both CSS styling, so it's renamed to `btnLightDarkstyle`.
+
+##### Code validator
+***`lightstyle.css`:*** [We found the following errors (1)](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/cssValidator/lightstyle.png)
+1. **Parse Error ... }** <br>
+There was an empty media-query, which I didn't remove, removed it, and since, the errors has been removed as well. No further errors found.
+
+***`darkstyle.css`:*** [We found the following errors (1)](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/cssValidator/darkstyle.png)
+1. **Parse Error ... }** <br>
+There was an empty media-query, which I didn't remove, removed it, and since, the errors has been removed as well. No further errors found.
+
+#### JavaScript
 
 #### Unsolved Issues
 
@@ -293,7 +319,6 @@ I have used several sources to contribute to solutions, and all sources that was
 * [Wallpaper Memory](https://wallpapermemory.com/desktop-backgrounds/tv-show-serial/breaking-bad) - For most Breaking Bad main section images
 * Image for Viability/Feasibility/Importance - used from the course materials from [Code Institute](https://codeinstitute.net/)
 * [Flaticon](https://www.flaticon.com/pattern/) - To create the patterned background for the dark/light theme
-* [Noun Project](https://thenounproject.com/term/heisenberg/217221/) - Used to create my favicon ICON
 * [Favicon-Generator](https://www.favicon-generator.org/) - Used to generate the favicon icon, and code to accompany the icon
 
 ##### Text
