@@ -41,6 +41,11 @@ function charactersDropdownSelection(value) {
     }
 };
 
+// window.onload = function () {
+//     window.document.body.onload = charactersRandomInput;
+//     console.log(charactersRandomInput);
+// };
+
 function charactersRandomInput() {
     if (charactersArray.length > 0) {
         randomIndex = Math.floor(Math.random() * charactersArray.length) - 1;
@@ -48,7 +53,7 @@ function charactersRandomInput() {
         document.getElementById("charactersRandomSelect").innerText = randomCharacter.name;
         console.log(randomCharacter.name);
     } else {
-        alert("The Random Characters input is broken,/n Please send me an email..")
+        alert("The Random Characters input is broken, please send me an email..")
     }
 }
 
