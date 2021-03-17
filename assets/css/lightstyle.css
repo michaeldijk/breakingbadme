@@ -119,7 +119,7 @@ a:hover {
 
 /* ==================== Main section, header image */
 .mainImageRow {
-    height: 95vh;
+    height: 85vh;
     background: url(../images/lightMode/1.jpg) no-repeat center center fixed;
     background-size: cover;
 }

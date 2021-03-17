@@ -44,11 +44,11 @@ function randomBackground() {
     if (styleSheet.includes("darkstyle.css")) {
         // alert("it does include");
         document.styleSheets[2].deleteRule(19);
-        document.styleSheets[2].insertRule(`.mainImageRow { height: 95vh; background: url(../images/darkMode/${img[x]}) no-repeat center center fixed; background-size: cover; }`, 19);
+        document.styleSheets[2].insertRule(`.mainImageRow { height: 85vh; background: url(../images/darkMode/${img[x]}) no-repeat center center fixed; background-size: cover; }`, 19);
     } else if (styleSheet.includes("lightstyle.css")) {
         // alert("it does not include");
         document.styleSheets[2].deleteRule(19);
-        document.styleSheets[2].insertRule(`.mainImageRow { height: 95vh; background: url(../images/lightMode/${img[x]}) no-repeat center center fixed; background-size: cover; }`, 19);
+        document.styleSheets[2].insertRule(`.mainImageRow { height: 85vh; background: url(../images/lightMode/${img[x]}) no-repeat center center fixed; background-size: cover; }`, 19);
     } else {
         alert("Background changer is broken, please send me an email/n so I can fix it...");
     }
