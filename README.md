@@ -117,13 +117,8 @@ Later onwards, if needed/possible, we can integrate more options, but, an easy n
 #### Skeleton Plane
 I've used [Bootstrap5, BETA2](https://getbootstrap.com/) as the framework, and the design has been created with a "mobile first" option. I've worked my way up from mobile to desktop view.
 
-Click the respective links below, to see wireframing for each page.
-* [Wireframes: index (homepage)](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/index.png)
-* [Wireframes: Characters](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/characters.png)
-* [Wireframes: Episodes](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/episodes.png)
-* [Wireframes: Places](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/places.png)
-* [Wireframes: Trivia](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/trivia.png)
-* [Wireframes: Contact](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/skeleton/contact.png)
+Click the respective links below, to see wireframing for each page, I added this to a separate file, to show them all in one page, and avoiding overcluttering the main `README.md`
+* [Wireframes](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/otherFiles/WIREFRAMES.md)
 
 #### Surface Plane
 I'm colour-blind, so picking the right colours is sometimes a bit tricky. Nonetheless, it has worked out very well, as I have two different colour schemes for the site:
@@ -157,7 +152,7 @@ The site incorporates many different features, and, the use of several APIs, to 
 
 #### General
 * Dark/Light theme: each page contains a button to change the theme from light to dark, or vise versa, and the default theme is the dark theme. Upon changing the theme, it then is captures on `localStorage`, and saved with a preset of `key: theme` and `value: lightstyle` or `darkstyle`.
-* Random background image: Each page contains a random background image, and these images are cycled through from one to four. Both dark theme and light theme, have four separate images, it cycles through.
+* Random background image: Each page contains a random background image, and these images are cycled through from one to four. Both dark theme and light theme, have four separate images, it cycles through, depending on the style the user choose from.
 * main image, is set to a height of `85vh` to allow an introduction of the section below it, this indicates there is more content below. I originally wanted to use a scroll down icon, which moved, but, this would take away from the overall asteatic of the site.
 * Each page, has an introductory text, in the main image.
 
