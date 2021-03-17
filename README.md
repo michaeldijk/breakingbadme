@@ -209,10 +209,18 @@ The following section, describes how the site and it's features have been tested
 When I completed my HTML code, I carried out a validation test, by using [W3C Markup Validation Service](https://validator.w3.org/), which is a worldwide recognized validator created by the WWC, that allows checking HTML and XHTML code, to check if the markup was documented correctly, and to correct any errors found.
 
 ***`index.html`:*** [2 Errors](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/htmlValidator/index.png)
-1. Error: Bad value 20px for attribute width on element img: Expected a digit but saw p instead. <br>
+1. **Error: Bad value 20px for attribute width on element img: Expected a digit but saw p instead.** <br>
 I removed this icon, as it was not great for user experience, as I only targetted it at first for the dark theme, and it would have meant I needed to target it also for the light theme, together with the images and all the other options that was present, decided to take it out of the site.
-2. Error: Bad value for attribute width on element img: The empty string is not a valid non-negative integer.<br>
+2. **Error: Bad value for attribute width on element img: The empty string is not a valid non-negative integer.**<br>
 I removed the empty `width=""` property, this solved this error.
+
+***`characters.html`:*** [3 Errors](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/htmlValidator/characters.png)
+1. **Error: Stray end tag p.** <br>
+`</p>` was positioned before the closing `</select>`, which caused it to show as a straying tag, positioned it after, this fixed the error.
+2. **Error: Bad value for attribute width on element img: The empty string is not a valid non-negative integer.** <br>
+Removed the empty `width=""` property, which solved this error.
+3. **Error: Stray end tag div.** <br>
+Removed the straying tag, which solved the error.
 
 #### Unsolved Issues
 
