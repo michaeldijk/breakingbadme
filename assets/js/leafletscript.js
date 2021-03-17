@@ -76,7 +76,7 @@ function selectPlace(menu) {
         let marker = marker2.addTo(mymap);
         marker.bindPopup('<p>9800 Montgomery Blvd</p><p>Albuquerque</p><p>NM 87111</p>').openPopup();
         marker.flyTo;
-        placesText.innerHTML = `<p>Because no Breaking Bad pilgrimage would be complete without a nod to Saul Goodman, we made sure to include a location, Hooligan's Tavern, where you can grab a beer and pay homage to the sleaziest lawyer in the Southwest. This was where the exterior of Saul's office was shot.</p>`;
+        placesText.innerHTML = `<p>Saul Goodman's business, the outside at least, was recorded in front of Hooligan's Tavern, when you visit it now, you can can grab a beer and pay homage to the sleaziest lawyer in the Southwest. This was where the exterior of Saul's office was shot.</p>`;
         placesImage.innerHTML = `<img
         src="https://static.wikia.nocookie.net/breakingbad/images/0/07/SaulOffice.png"
         alt="Better Caul Saul's Office" class="placesImage">`;
@@ -94,7 +94,7 @@ function selectPlace(menu) {
         let marker = marker3.addTo(mymap);
         marker.bindPopup('<p>9516 Snow Heights Cir NE</p><p>Albuquerque</p><p>NM 87112</p>').openPopup();
         marker.flyTo;
-        placesText.innerHTML = `<p>While Walt and Skyler might have been using their A1A Car Wash to clean dirty cash, the real life counterpart, Octopus Car Wash, focuses primarily on cars. You can pull in for a wash, or just snap some photos, as it’s open to the general public.</p>`;
+        placesText.innerHTML = `<p>While Walt and Skyler might have been using their A1A Car Wash to clean dirty cash, the real life counterpart, focuses primarily on cars. Nowadays, it's called Mister Car Wash, and before this, it was called Octopus Car-wash. From messages on the internet, they have a signed image, from mister Heisenberg himself!</p>`;
         placesImage.innerHTML = `<img
         src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/35017864/place_image-image-b592b300-2fc9-4eb4-983a-79fd385473ce.jpg"
         alt="A1A Car Wash" class="placesImage">`;
@@ -112,7 +112,7 @@ function selectPlace(menu) {
         let marker = marker4.addTo(mymap);
         marker.bindPopup('<p>1617 Candelaria Rd NW</p><p>Albuquerque</p><p>NM 87107</p>').openPopup();
         marker.flyTo;
-        placesText.innerHTML = `<p>There might not be a superlab located deep in the basement of this laundry facility, but you can still visit the location that set the stage for many tense moments between Heisenberg and Fring in Season 4's "Delta Linen Supply."</p>`;
+        placesText.innerHTML = `<p>Used by the famous Gustavo Fring, to cook up the blue meth, in real life, it's just a regular washing company, washing dirtly laundry, I presume mostly from hotel chains.</p>`;
         placesImage.innerHTML = `<img
         src="https://i.pinimg.com/originals/42/c8/9a/42c89ab7c6af2d5992fac46ce59ca29d.jpg"
         alt="Delta Linen Supply" class="placesImage">`;
@@ -130,7 +130,7 @@ function selectPlace(menu) {
         let marker = marker5.addTo(mymap);
         marker.bindPopup('<p>322 16th St SW</p><p>Albuquerque</p><p>NM 87104</p>').openPopup();
         marker.flyTo;
-        placesText.innerHTML = `<p>This place is on private property. Listing for informational purposes only. Please do not visit without express permission from the land owner. This private residence is the external filming location of Jesse Pinkman's home, on the television program 'Breaking Bad'. It has appeared in every season of the series, and is a favorite spot to visit among fans of the show.  This is a private residence, so please remember to observe respectfully from the road."</p>`;
+        placesText.innerHTML = `<p>The Pinkman residence is the external filming location of Jesse Pinkman's home. It has appeared in every season of the series, and is a favorite spot to visit among fans of the show. After or during season two, Jesse's family decided to sell the place, and Jesse had to move to an apartment. Where it unfortunately all went wrong big-time.</p>`;
         placesImage.innerHTML = `<img
         src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/1026991796/place_image-image-f96dfd10-e061-4afc-892c-c2103a7b1a6d.jpg"
         alt="The Pinkman Residence" class="placesImage">`;
@@ -148,10 +148,10 @@ function selectPlace(menu) {
         let marker = marker6.addTo(mymap);
         marker.bindPopup('<p>322 16th St SW</p><p>Albuquerque</p><p>NM 87104</p>').openPopup();
         marker.flyTo;
-        placesText.innerHTML = `<p>This place is on private property. Listing for informational purposes only. Please do not visit without express permission from the land owner. This private residence is the external filming location of Jesse Pinkman's home, on the television program 'Breaking Bad'. It has appeared in every season of the series, and is a favorite spot to visit among fans of the show.  This is a private residence, so please remember to observe respectfully from the road."</p>`;
+        placesText.innerHTML = `<p>Tuco's Headquarters, was recorded actually near/in-front of Java Joe's. The coffee shop is still open, and serves breakfast, baked goods and live music to go with the coffee</p><p>Unfortunately, there is no meth sales going on, and no spooky deals beeing handled above the building on the first floor</p>`;
         placesImage.innerHTML = `<img
-        src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/1026991796/place_image-image-f96dfd10-e061-4afc-892c-c2103a7b1a6d.jpg"
-        alt="The Pinkman Residence" class="placesImage">`;
+        src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/6822090/place_image-image-1d18cd66-c286-4b7b-a5b4-78ab78f1a06a.jpg"
+        alt="Java Joe's" class="placesImage">`;
     } else if (menu.value == '7') {
         marker10.remove();
         marker9.remove();
@@ -166,10 +166,10 @@ function selectPlace(menu) {
         let marker = marker7.addTo(mymap);
         marker.bindPopup('<p>322 16th St SW</p><p>Albuquerque</p><p>NM 87104</p>').openPopup();
         marker.flyTo;
-        placesText.innerHTML = `<p>This place is on private property. Listing for informational purposes only. Please do not visit without express permission from the land owner. This private residence is the external filming location of Jesse Pinkman's home, on the television program 'Breaking Bad'. It has appeared in every season of the series, and is a favorite spot to visit among fans of the show.  This is a private residence, so please remember to observe respectfully from the road."</p>`;
+        placesText.innerHTML = `<p>The Crossroads Motel, was nicknamed by Hank Schrader "The Crystal Palace", and was mostly populated by Junkies.</p><p>The place itself was most notably synonymous with the character of Wendy, a prostitute who lives in the motel, and "works" the parking lot during the day hours, providing favors for money.`;
         placesImage.innerHTML = `<img
-        src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/1026991796/place_image-image-f96dfd10-e061-4afc-892c-c2103a7b1a6d.jpg"
-        alt="The Pinkman Residence" class="placesImage">`;
+        src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/2537147/place_image-image-3dff38ec-e207-4932-a12c-ec3e222bc4f3.jpg"
+        alt="The Crossroads Motel" class="placesImage">`;
     } else if (menu.value == '8') {
         marker10.remove();
         marker9.remove();
@@ -182,12 +182,12 @@ function selectPlace(menu) {
         marker2.remove();
         marker1.remove();
         let marker = marker8.addTo(mymap);
-        marker.bindPopup('<p>322 16th St SW</p><p>Albuquerque</p><p>NM 87104</p>').openPopup();
+        marker.bindPopup('<p>5711 Broadway Boulevard Southeast</p><p>Albuquerque</p><p>NM 87105</p>').openPopup();
         marker.flyTo;
-        placesText.innerHTML = `<p>This place is on private property. Listing for informational purposes only. Please do not visit without express permission from the land owner. This private residence is the external filming location of Jesse Pinkman's home, on the television program 'Breaking Bad'. It has appeared in every season of the series, and is a favorite spot to visit among fans of the show.  This is a private residence, so please remember to observe respectfully from the road."</p>`;
+        placesText.innerHTML = `<p>There were a handful of separate locations used to make up Joe’s Salvage throughout the series, but only one bore witness to the end of Walt's RV: Ace Metals. This location is still an operational metal recycling facility.</p>`;
         placesImage.innerHTML = `<img
-        src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/1026991796/place_image-image-f96dfd10-e061-4afc-892c-c2103a7b1a6d.jpg"
-        alt="The Pinkman Residence" class="placesImage">`;
+        src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/3302340/place_image-image-7678b683-3e35-437b-9323-07ad40fcbc32.jpg"
+        alt="Ace Metals" class="placesImage">`;
     } else if (menu.value == '9') {
         marker10.remove();
         marker9.remove();
@@ -200,12 +200,13 @@ function selectPlace(menu) {
         marker2.remove();
         marker1.remove();
         let marker = marker9.addTo(mymap);
-        marker.bindPopup('<p>322 16th St SW</p><p>Albuquerque</p><p>NM 87104</p>').openPopup();
+        marker.bindPopup('<p>4257 Isleta Boulevard Southwest</p><p>Albuquerque</p><p>NM 87105</p>').openPopup();
         marker.flyTo;
-        placesText.innerHTML = `<p>This place is on private property. Listing for informational purposes only. Please do not visit without express permission from the land owner. This private residence is the external filming location of Jesse Pinkman's home, on the television program 'Breaking Bad'. It has appeared in every season of the series, and is a favorite spot to visit among fans of the show.  This is a private residence, so please remember to observe respectfully from the road."</p>`;
+        placesText.innerHTML = `<p>The manager of local burrito joint Twisters counts between 30 to 40 fans a day who pull up in cars and cabs, sometimes straight from the airport, all of them curious to meet the real-life Gus Fring.</p>
+        <p>The popularity of Breaking Bad has been great for business, as interest in the restaurant has brought in extra customers and profit. Fans are excited to sit in the most coveted seat in the place: “Walt’s Booth." When you visit, be sure to have someone snap your picture next to the huge Los Pollos Hermanos mural.</p>`;
         placesImage.innerHTML = `<img
-        src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/1026991796/place_image-image-f96dfd10-e061-4afc-892c-c2103a7b1a6d.jpg"
-        alt="The Pinkman Residence" class="placesImage">`;
+        src="https://static.wikia.nocookie.net/breakingbad/images/6/67/Los_Pollos_Hermanos.png"
+        alt="Twisters Restaurant" class="placesImage">`;
     } else if (menu.value == '10') {
         marker10.remove();
         marker9.remove();
@@ -218,11 +219,11 @@ function selectPlace(menu) {
         marker2.remove();
         marker1.remove();
         let marker = marker10.addTo(mymap);
-        marker.bindPopup('<p>322 16th St SW</p><p>Albuquerque</p><p>NM 87104</p>').openPopup();
+        marker.bindPopup('<p>Canoncito Indian Reservation</p><p>Bernalillo West</p><p>NM</p>').openPopup();
         marker.flyTo;
-        placesText.innerHTML = `<p>This place is on private property. Listing for informational purposes only. Please do not visit without express permission from the land owner. This private residence is the external filming location of Jesse Pinkman's home, on the television program 'Breaking Bad'. It has appeared in every season of the series, and is a favorite spot to visit among fans of the show.  This is a private residence, so please remember to observe respectfully from the road."</p>`;
+        placesText.innerHTML = `<p>To’hajiilee Reservation is the first place Walt and Jesse parked the rolling meth lab, and it was prominently featured at the climax of the series.</p><p>Formerly known as the Canoncito Reservation, To’hajiilee is a section of the Navajo Nation between three of New Mexico’s southwestern counties. The dry, rocky terrain has a unique beauty.</p><p>Though production of the series has long been complete, the effect of Breaking Bad's success on Albuquerque is obvious everywhere you look. Packets of crystal-blue rock sugar, bakeries selling blue meth donuts, and a beauty salon offering a “Bathing Bad” line of bath salts are just a few of the local Heisenberg-themed attractions you can find.</p><p>For a place that was mostly known for its annual Balloon Fiesta, the dark and violent nature of the series hasn’t stopped Albuquerque, or its residents, from embracing all the attention Breaking Bad has brought to the city whole-heartedly.</p>`;
         placesImage.innerHTML = `<img
-        src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/1026991796/place_image-image-f96dfd10-e061-4afc-892c-c2103a7b1a6d.jpg"
-        alt="The Pinkman Residence" class="placesImage">`;
+        src="https://atlas-assets.roadtrippers.com/uploads/place_image/image/11843246/place_image-image-bac76409-a200-4c16-b328-a1de6002afc1.jpg"
+        alt="Canoncito Indian Reservation" class="placesImage">`;
     }
 }
