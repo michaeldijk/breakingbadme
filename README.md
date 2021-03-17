@@ -222,6 +222,10 @@ Removed the empty `width=""` property, which solved this error.
 3. **Error: Stray end tag div.** <br>
 Removed the straying tag, which solved the error.
 
+***`episodes.html`:*** [1 Error](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/htmlValidator/episodes.png)
+1. **Error: Stray end tag div.** <br>
+Removed the straying div, which solved this issue.
+
 #### Unsolved Issues
 
 ### Version Control
