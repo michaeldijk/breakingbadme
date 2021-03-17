@@ -118,7 +118,7 @@ Later onwards, if needed/possible, we can integrate more options, but, an easy n
 I've used [Bootstrap5, BETA2](https://getbootstrap.com/) as the framework, and the design has been created with a "mobile first" option. I've worked my way up from mobile to desktop view.
 
 Click the respective links below, to see wireframing for each page, I added this to a separate file, to show them all in one page, and avoiding overcluttering the main `README.md`
-* [Wireframes](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/otherFiles/WIREFRAMES.md)
+* [Wireframes](https://github.com/michaeldijk/breakingbadme/blob/main/WIREFRAMES.md)
 
 #### Surface Plane
 I'm colour-blind, so picking the right colours is sometimes a bit tricky. Nonetheless, it has worked out very well, as I have two different colour schemes for the site:
