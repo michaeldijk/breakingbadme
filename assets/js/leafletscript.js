@@ -1,3 +1,4 @@
+// Default value
 const mymap = L.map('mapid').setView([35.11811482487477, -106.59887670136685], 10);
 
 
