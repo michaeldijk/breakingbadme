@@ -122,3 +122,120 @@ function difficultyLevel() {
     </div>
     <!-- End first time game code input -->`;
 }
+
+function easyLevel() {
+    difficulty = 1;
+    document.getElementById("looseEndGame").innerHTML = `                            <!-- Score comes here -->
+    <div class="row">
+        <div class="col-12">
+            <h4>Your score: <span id="score">0</span></h4>
+        </div>
+    </div>
+    <!-- Score End -->
+    <!-- Question / Answer here -->
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <h4 id="question">Question comes here</h4>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="row">
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA"
+                        onclick="answerA_clicked()">Answer #1</button>
+                </div>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id=" answerB"
+                        onclick="answerB_clicked()">Answer #2</button>
+                </div>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC"
+                        onclick="answerC_clicked()">Answer #3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Question / Answer here end -->
+    <!-- Right / Wrong answer here -->
+    <div class=" row">
+        <div class="col-12">
+            <p id="correctOrNotValue">Right / wrong comes here</p>
+        </div>
+    </div>
+    <!-- Right / Wrong answer end here -->`;
+    btnProvideQuestion();
+}
+
+function mediumLevel() {
+    difficulty = 2;
+    document.getElementById("looseEndGame").innerHTML = `                            <!-- Score comes here -->
+    <div class="row">
+        <div class="col-12">
+            <h4>Your score: <span id="score">0</span></h4>
+        </div>
+    </div>
+    <!-- Score End -->
+    <!-- Question / Answer here -->
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <h4 id="question">Question comes here</h4>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="row">
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA"
+                        onclick="answerA_clicked()">Answer #1</button>
+                </div>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id=" answerB"
+                        onclick="answerB_clicked()">Answer #2</button>
+                </div>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC"
+                        onclick="answerC_clicked()">Answer #3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Question / Answer here end -->
+    <!-- Right / Wrong answer here -->
+    <div class=" row">
+        <div class="col-12">
+            <p id="correctOrNotValue">Right / wrong comes here</p>
+        </div>
+    </div>
+    <!-- Right / Wrong answer end here -->`;
+    btnProvideQuestion();
+}
+
+function hardLevel() {
+    difficulty = 3;
+    document.getElementById("looseEndGame").innerHTML = `                            <!-- Score comes here -->
+    <div class="row">
+        <div class="col-12">
+            <h4>Your score: <span id="score">0</span></h4>
+        </div>
+    </div>
+    <!-- Score End -->
+    <!-- Question / Answer here -->
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <h4 id="question">Question comes here</h4>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="row">
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA"
+                        onclick="answerA_clicked()">Answer #1</button>
+                </div>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id=" answerB"
+                        onclick="answerB_clicked()">Answer #2</button>
+                </div>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC"
+                        onclick="answerC_clicked()">Answer #3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Question / Answer here end -->
+    <!-- Right / Wrong answer here -->
+    <div class=" row">
+        <div class="col-12">
+            <p id="correctOrNotValue">Right / wrong comes here</p>
+        </div>
+    </div>
+    <!-- Right / Wrong answer end here -->`;
+    btnProvideQuestion();
+}
