@@ -336,17 +336,21 @@ Each function and JavaScript code that I wrote, I added console log, to log the 
 Each testing session usually involved:
 1. Reloading the page multiple times, while console in DevTools was open, to confirm the loading happened correctly and accurately.
 2. I also manually called on each function, to see if the output of that function in the console, confirmed the right details, and, this allowed me to adjust my code and scripts, to accept the correct values when called on
-3. When writing the scripts and functions, I added several console.log lines, to confirm the output of each function, before removing the console.log line itself.
+3. When writing the scripts and functions, I added several `console.log` lines, to confirm the output of each function, before removing the `console.log` line itself.
 This allowed me to confirm that when for instance, on the `characters.html` page, the random character name was loaded in, it logged to console. In the beginning when this didn't work, I had to add it as a callback to the original script. I also added several alert functions, to catch the error, if the script was broken.
 4. Intentionally, when the script was written, I "broke" the script, so it would go to the else statement, showing it was erroring the code, meaning it didn't work. Then adjusting it back to the correct way, confirmed the code worked.
-5. On the `index.html` page, the Random Quote generator, I added two console log statements, one for the value: `name`, and one for the value: `author`. I then knew, my code worked, because it outputted a "0" for value matching.
+5. On the `index.html` page, the Random Quote generator, I added two `console.log` statements, one for the value: `name`, and one for the value: `author`.<br>
+```
+console.log("compare ", character.name, charName, character.name.localeCompare(charName));
+console.log("compare else name:", character.nickname, charName, character.nickname.localeCompare(charName));
+```
+I then knew, my code worked, because it outputted a "0" for value matching, on either option.
 6. For the theme switcher, I opened DevTools and looked at multiple options, one was that I looked under "application" and then "Local Storage", to confirm it was present in "Local Storage". I also performed several tests using console.log, to confirm the right keyword was stored.
 7. For the `places.html` page, I created a dropdown list, added one value, and then ran through the values. At first it added all my markers, and not changed / removed the previous one, but this was quickly resolved by adding `markerXXX.remove();` to the script, which solved this issue.
 
 #### Unsolved Issues
 
 ### Version Control
-
 
 ### Deployment
 The project was developed using a local IDE, and with the integration of git, which allowed me to push each change towards my GitHub Repository.
