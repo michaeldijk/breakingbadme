@@ -38,3 +38,15 @@ let currentScore = 0; // start current score at 0, which will increase to 10
 let difficulty;
 
 document.addEventListener("DOMContentLoaded", difficultyLevel);
+
+function Question(question, rightAnswer, wrongAnswer1, wrongAnswer2) {
+    this.question = question;
+    this.rightAnswer = rightAnswer;
+    this.wrongAnswer1 = wrongAnswer1;
+    this.wrongAnswer2 = wrongAnswer2;
+};
+
+function shuffle(o) {
+    for (let j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+};
