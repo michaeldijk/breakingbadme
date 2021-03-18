@@ -126,6 +126,7 @@ function difficultyLevel() {
 
 // Easy option function, where difficulty is set to 2, as opposed to initial value of 1
 function easyLevel() {
+    debugger;
     difficulty = 1;
     document.getElementById("looseEndGame").innerHTML = `<!-- Score comes here -->
     <div class="row">
@@ -143,7 +144,7 @@ function easyLevel() {
             <div class="row">
                 <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA" onclick="answerA_clicked()">Answer #1</button>
                 </div>
-                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id="answerB" onclick="answerB_clicked()">Answer #2</button>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerB" onclick="answerB_clicked()">Answer #2</button>
                 </div>
                 <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC" onclick="answerC_clicked()">Answer #3</button>
                 </div>
@@ -154,7 +155,7 @@ function easyLevel() {
     <!-- Right / Wrong answer here -->
     <div class=" row">
         <div class="col-12">
-            <p id="correctOrNotValue">Right / wrong comes here</p>
+            <p id="correctOrNotValue"></p>
         </div>
     </div>
     <!-- Right / Wrong answer end here -->`;
@@ -180,7 +181,7 @@ function mediumLevel() {
             <div class="row">
                 <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA" onclick="answerA_clicked()">Answer #1</button>
                 </div>
-                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id="answerB" onclick="answerB_clicked()">Answer #2</button>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerB" onclick="answerB_clicked()">Answer #2</button>
                 </div>
                 <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC" onclick="answerC_clicked()">Answer #3</button>
                 </div>
@@ -191,7 +192,7 @@ function mediumLevel() {
     <!-- Right / Wrong answer here -->
     <div class=" row">
         <div class="col-12">
-            <p id="correctOrNotValue">Right / wrong comes here</p>
+            <p id="correctOrNotValue"></p>
         </div>
     </div>
     <!-- Right / Wrong answer end here -->`;
@@ -217,7 +218,7 @@ function hardLevel() {
             <div class="row">
                 <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA" onclick="answerA_clicked()">Answer #1</button>
                 </div>
-                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id="answerB" onclick="answerB_clicked()">Answer #2</button>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerB" onclick="answerB_clicked()">Answer #2</button>
                 </div>
                 <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC" onclick="answerC_clicked()">Answer #3</button>
                 </div>
@@ -228,7 +229,7 @@ function hardLevel() {
     <!-- Right / Wrong answer here -->
     <div class=" row">
         <div class="col-12">
-            <p id="correctOrNotValue">Right / wrong comes here</p>
+            <p id="correctOrNotValue"></p>
         </div>
     </div>
     <!-- Right / Wrong answer end here -->`;
@@ -287,14 +288,14 @@ function checkAnswer(answer) {
         document.getElementById("correctOrNotValue").innerHTML = "Right Answer";
 
         if (currentScore === 10) {
-            document.getElementById("looseEndGame").innerHTML = `<h1>You have Won!</h1> <br> <button class="btn btnDarkstyle" onclick="init()">Play Again</button>`;
+            document.getElementById("looseEndGame").innerHTML = `<h1>You have Won!</h1> <br> <button class="btn btnLightDarkstyle" onclick="init()">Play Again</button>`;
         }
     } else {
         adjustScore(false);
         document.getElementById("correctOrNotValue").innerHTML = "Wrong Answer";
 
         if (currentScore === 0 || currentScore < 0) {
-            document.getElementById("looseEndGame").innerHTML = `<h1>You have lost!</h1> <br> <button class="btn btnDarkstyle" onclick="init()">Play Again</button>`;
+            document.getElementById("looseEndGame").innerHTML = `<h1>You have lost!</h1> <br> <button class="btn btnLightDarkstyle" onclick="init()">Play Again</button>`;
         }
     }
 }
