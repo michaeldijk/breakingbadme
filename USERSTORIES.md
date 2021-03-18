@@ -48,10 +48,12 @@ I wanted to add User Stories separately, to avoid overcluttering the main `READM
 4. As a visitor, and a dark theme user, I want to adjust the site, so that it suits my style/needs
     1. User arrives at [BreakingBadMe](https://michaeldijk.github.io/breakingbadme/index.html)
     2. User then clicks on the menu (if moble), or on chooses ***Light Mode*** from the menu on top<br>
-    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoOne.png)<br>#
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoOne.png)<br>
     ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoTwo.png)
-    3. The page then moves to a ***Dark Theme***, and stores this variable in `localStorage`, for future visits.
-    4. User can change this again to ***Light Theme*** by pressing the button again, and this is also again stored in `localStorage`.
+    3. The page then moves to a ***Light Theme***, and stores this variable in `localStorage`, for future visits.<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyFourThreeOne.png)<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyFourThreeTwo.png)
+    4. User can change this again to ***Dark Theme*** by pressing the button again, and this is also again stored in `localStorage`.
 5. As a visitor, I want the site to be easy to navigate, and intuitive to use
     1. User arrives at [BreakingBadMe](https://michaeldijk.github.io/breakingbadme/index.html)
     2. User then clicks on the menu (if moble), or on chooses from the menu on top
