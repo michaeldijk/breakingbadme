@@ -381,6 +381,24 @@ This is how I attacked all my scripts, and, tested and re-run them multiple inst
 
 
 ### Version Control
+[Git](https://git-scm.com/) was used as local repository, and [GitHub](https://github.com/) as a remote repository.
+
+The process followed for using Git and GitHub is as followed:
+1. ***Select New repository on GitHub's main page, once logged in***<br>
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/versionControl/newRepo.png)
+2. ***Fill in the needed details: Repo name, description, add Readme file, add gitignore***
+3. ***Click on "Create Repository, to generate the new repo***
+4. ***Click on "Code" and copy the HTTPS link***<br>
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/versionControl/copyLink.png)
+2. ***Open VS-Code and select "clone repository..."***<br>
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/versionControl/vsCodeCloneRepo.png)
+2. ***Select a folder to save the cloned Repo***<br>
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/versionControl/selectFolder.png)
+2. ***VS-Code will then confirm the repo has been cloned, and you can open the workspace, to start working***<br>
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/versionControl/confirm.png)
+
+#### Version Control notes
+Some of my commits to GitHub are to long, and I've read the following post, on avoiding this, and why it's important to have "short and consice commits". Unfortuantely I read this to late, but will implement this going forward. [Chris Beams - Git Commit](https://chris.beams.io/posts/git-commit/).
 
 ### Deployment
 The project was developed using a local IDE, and with the integration of git, which allowed me to push each change towards my GitHub Repository.
