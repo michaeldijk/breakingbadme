@@ -3,10 +3,18 @@
 I wanted to add User Stories separately, to avoid overcluttering the main `README`.
 
 1. As a visitor, I want to find information about a certain character
-    1. User arrives at [BreakingBadMe](https://michaeldijk.github.io/breakingbadme/index.html)
-    2. User then clicks on the menu (if moble), or on chooses ***Characters*** from the menu on top
+    1. User arrives at [BreakingBadMe](https://michaeldijk.github.io/breakingbadme/index.html)<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneOne.png)<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneOneTwo.png)
+    2. User then clicks on the menu (if moble), or on chooses ***Characters*** from the menu on top<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoOne.png)<br>#
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoTwo.png)
     3. User then arrives at the ***Characters*** page, and scrolls down
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneThreeOne.png)<br>#
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneThreeTwo.png)
     4. User can then select the dropdown field, and select the required character they want to know more about
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneFourOne.png)<br>#
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneFourTwo.png)
 2. As a visitor, I want to find information about (a) location(s)
     1. User arrives at [BreakingBadMe](https://michaeldijk.github.io/breakingbadme/index.html)
     2. User then clicks on the menu (if moble), or on chooses ***Places*** from the menu on top
