@@ -1,3 +1,6 @@
+// empty variables, to be used later onwards & default variables...
+let option;
+
 // Dropdown field population on select, section below:
 // Created a variable to select the element
 const dropdown = document.getElementById("charactersDropdown");
@@ -20,7 +23,7 @@ function loadCharsSelector() {
         option.value = charactersArray[i].name;
         dropdown.add(option);
     }
-};
+}
 
 // Function to match the name of the dropdown, to the charractersArray, and if it matches, then return values.
 function charactersDropdownSelection(value) {
@@ -36,10 +39,10 @@ function charactersDropdownSelection(value) {
         <p>Appeared in seasons: ${charactersArray[i].appearance}</p>
         <p>Portrayed by: ${charactersArray[i].portrayed}</p>`);
             document.getElementById("characterImage").src = charactersArray[i].img;
-            document.getElementById("characterImage1").src = charactersArray[i].img
+            document.getElementById("characterImage1").src = charactersArray[i].img;
         }
     }
-};
+}
 
 // window.onload = function () {
 //     window.document.body.onload = charactersRandomInput;
@@ -53,17 +56,6 @@ function charactersRandomInput() {
         document.getElementById("charactersRandomSelect").innerText = randomCharacter.name;
         console.log(randomCharacter.name);
     } else {
-        alert("The Random Characters input is broken, please send me an email..")
+        alert("The Random Characters input is broken, please send me an email..");
     }
 }
-
-// // document.addEventListener("DOMContentLoaded", charactersRandomInput, true);
-
-// window.onload = (event) => {
-//     charactersRandomInput();
-// };
-
-// Seem to not get the charactersRandomInput to work.
-// I tried body onload = charactersRandomInput(), I also tried https://www.bitdegree.org/learn/best-code-editor/javascript-onload-example-4, and I tried http://jsfiddle.net/9Bnkc/, without solution
-// Will discuss with my mentor
-// Also tried with innertext, innerhtml insertadjecenthtml...
