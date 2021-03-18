@@ -57,12 +57,15 @@ I wanted to add User Stories separately, to avoid overcluttering the main `READM
 5. As a visitor, I want the site to be easy to navigate, and intuitive to use
     1. User arrives at [BreakingBadMe](https://michaeldijk.github.io/breakingbadme/index.html)
     2. User then clicks on the menu (if moble), or on chooses from the menu on top
-        1. This is very intuitive, and guides the user to the right options, as it uses traditional hambuger menu for mobile, and a navbar for the larger view-windows.
+        1. This is very intuitive, and guides the user to the right options, as it uses traditional hambuger menu for mobile, and a navbar for the larger view-windows.<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoOne.png)<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoTwo.png)
 6. As a visitor, I want to be able to contact the owner, if something does not work
     1. User arrives at [BreakingBadMe](https://michaeldijk.github.io/breakingbadme/index.html)
     2. User then clicks on the menu (if moble), or on chooses ***Contact*** from the menu on top<br>
-    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoOne.png)<br>#
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoOne.png)<br>
     ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoTwo.png)
-    3. User then arrives at the ***Contact*** page, and scrolls down
+    3. User then arrives at the ***Contact*** page, and scrolls down<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storySixThreeOne.png)<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storySixThreeTwo.png)
     4. User can then fill in the required details, and submit form
-    5. Upon submission, user is greeted with a success message, once sent
