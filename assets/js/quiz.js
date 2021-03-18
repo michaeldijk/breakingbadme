@@ -303,3 +303,23 @@ function checkAnswer(answer) {
         }
     }
 }
+
+// restart the game, when lost & start over, or, reset game when won!!
+function init() {
+    currentScore = 0;
+    document.getElementById("looseEndGame").innerHTML = `<!-- Replay game, starts here -->
+    <div class="row">
+        <div class="col-12">
+            <p>Select difficulty Level:</p>
+        </div>
+        <div class="col-12 mb-2"><button class="btn btnLightDarkstyle"
+                onclick="easyLevel()">Easy</button>
+        </div>
+        <div class="col-12 mb-2"><button class="btn btnLightDarkstyle"
+                onclick="mediumLevel()">Medium</button></div>
+        <div class="col-12 mb-2"><button class="btn btnLightDarkstyle"
+                onclick="hardLevel()">Hard</button>
+        </div>
+    </div>
+    <!-- Replay game, Ends here -->`;
+}
