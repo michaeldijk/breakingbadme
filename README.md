@@ -345,6 +345,8 @@ I then knew, my code worked, because it outputted a "0" for value matching, on e
 6. For the theme switcher, I opened DevTools and looked at multiple options, one was that I looked under "application" and then "Local Storage", to confirm it was present in "Local Storage". I also performed several tests using console.log, to confirm the right keyword was stored.
 7. For the `places.html` page, I created a dropdown list, added one value, and then ran through the values. At first it added all my markers, and not changed / removed the previous one, but this was quickly resolved by adding `markerXXX.remove();` to the script, which solved this issue.
 
+This is how I attacked all my scripts, and, tested and re-run them multiple instances, and console logged them fully, until I understood the correct handling of my code, and, was happy with the results, before removing any remaining `console.log()` statements.
+
 #### Unsolved Issues
 
 ### Version Control
