@@ -251,6 +251,19 @@ There was an empty media-query, which I didn't remove, removed it, and since, th
 There was an empty media-query, which I didn't remove, removed it, and since, the errors has been removed as well. No further errors found.
 
 #### JavaScript
+##### Code Validator
+When I completed my JavaScript code, I carried out a validation test, by using [JSHint](https://jshint.com/), which is a code validator, for JavaScript, to discover and resolve any potential errors which could be present in your code.
+
+***`charactersQuoteScript.js`:*** [Seven warnings, Six undefined variables, four unused variables](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidation/charactersQuoteScript.png)
+1. **Six warnings resolved, which refer to ES6** <br>
+As I used ES6 JavaScript, I had to add `/*jshint esversion: 6 */` to my code, as comment on top. Since adding this, there was one warning left.
+2. **65	Missing semicolon.** <br>
+Resoved this error, by adding a semicolon at the end of line #65.
+3. **Six undefined variables** <br>
+Resolved these errors, by adding empty variables on top, to allow them to be used/overwritten in my code later, when accessed, and assign them default values.
+4. **Four unused variables** <br>
+These are not needed to be resolved, as these variables (functions), are loaded in `index.html`, with `onload`, or called on when a button is pressed.
+
 
 #### Unsolved Issues
 
