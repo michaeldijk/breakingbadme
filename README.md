@@ -250,7 +250,10 @@ Fixed this error, by adding a closing div on line #117, and section moved to lin
 ***`contact.html`:*** No errors found.
 
 ##### HTML Lighthouse Testing
+![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/lighthouse/lighthouseScore.png)
+Lighthouse testing came up with certain low values, these values are present due to high quality images, to mitigate lower loading times, I implemented a loader function, with this the site only becomes visible now, when the site has been fully loaded.
 
+Some of the loading times are also caused by the CSS files of bootstrap and font awesome, which cannot be prevented.
 
 #### CSS
 * Naming conventions: Made a mistake with the button class I created, as I named it `btnDarkstyle`, but this naming, did not suit both CSS styling, so it's renamed to `btnLightDarkstyle`.
@@ -466,6 +469,7 @@ I have used several sources to contribute to solutions, and all sources that was
 * Image for Viability/Feasibility/Importance - used from the course materials from [Code Institute](https://codeinstitute.net/)
 * [Flaticon](https://www.flaticon.com/pattern/) - To create the patterned background for the dark/light theme
 * [Favicon-Generator](https://www.favicon-generator.org/) - Used to generate the favicon icon, and code to accompany the icon
+* [Giphy](https://giphy.com/gifs/breaking-bad-money-HhWG41ntlV6UM) - Used for the loader, the Breaking Bad Money teller
 
 ##### Text
 * [Ranker](https://www.ranker.com/app/search.htm?q=breaking%20bad) - Used to find lists for each season for the show, and accompanying texts for each episode, and order them according to rank from ranker.com
