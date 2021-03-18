@@ -382,3 +382,10 @@ a:hover {
         border-radius: 25px;
     }
 }
+
+/* Extra Media-Query as I cannot get the CharactersImageLargeScreen to fit/work therefore assigning a max-width to the rule */
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    .characterImageLgScreen {
+        display: none;
+    }
