@@ -32,12 +32,12 @@ quiz[24] = new Question("Did Gale Boetticher, also make great meth?", "Yes", "No
 quiz[25] = new Question("Gustavo Fring, was he a ...", "Cartel-Leader", "Mexican", "Chicken owner");
 quiz[26] = new Question("Did Brandon Mayhew get in trouble with the DEA?", "Yes", "No", "He went to jail");
 quiz[27] = new Question("Ken's Nickname?", "Ken Wins", "Ken who?", "Ken looser");
-let randomQuestion;
-let answers = [];
+let randomQuestion; // random quiz question is assigned to this variable
+let answers = []; // answers are assigned to this array, first right, other two wrong
 let currentScore = 0; // start current score at 0, which will increase to 10
-let difficulty;
+let difficulty; // empty variable, where the difficulty is assigned to.
 
-document.addEventListener("DOMContentLoaded", difficultyLevel);
+document.addEventListener("DOMContentLoaded", difficultyLevel); // loads the difficulty function to allow players select difficulty level
 
 function Question(question, rightAnswer, wrongAnswer1, wrongAnswer2) {
     this.question = question;
@@ -51,6 +51,7 @@ function shuffle(o) {
     return o;
 };
 
+// start function, to load when game is starting, on initial value, this function is loaded with the event-listener
 function difficultyLevel() {
     document.getElementById("looseEndGame").innerHTML = `<!-- Start game, first time code insert -->
     <div class="row">
@@ -123,9 +124,10 @@ function difficultyLevel() {
     <!-- End first time game code input -->`;
 }
 
+// Easy option function, where difficulty is set to 2, as opposed to initial value of 1
 function easyLevel() {
     difficulty = 1;
-    document.getElementById("looseEndGame").innerHTML = `                            <!-- Score comes here -->
+    document.getElementById("looseEndGame").innerHTML = `<!-- Score comes here -->
     <div class="row">
         <div class="col-12">
             <h4>Your score: <span id="score">0</span></h4>
@@ -139,14 +141,11 @@ function easyLevel() {
         </div>
         <div class="col-12 col-md-6">
             <div class="row">
-                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA"
-                        onclick="answerA_clicked()">Answer #1</button>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA" onclick="answerA_clicked()">Answer #1</button>
                 </div>
-                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id=" answerB"
-                        onclick="answerB_clicked()">Answer #2</button>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id="answerB" onclick="answerB_clicked()">Answer #2</button>
                 </div>
-                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC"
-                        onclick="answerC_clicked()">Answer #3</button>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC" onclick="answerC_clicked()">Answer #3</button>
                 </div>
             </div>
         </div>
@@ -162,9 +161,10 @@ function easyLevel() {
     btnProvideQuestion();
 }
 
+// medium option function, where difficulty is set to 2, as opposed to initial value of 1
 function mediumLevel() {
     difficulty = 2;
-    document.getElementById("looseEndGame").innerHTML = `                            <!-- Score comes here -->
+    document.getElementById("looseEndGame").innerHTML = `<!-- Score comes here -->
     <div class="row">
         <div class="col-12">
             <h4>Your score: <span id="score">0</span></h4>
@@ -178,14 +178,11 @@ function mediumLevel() {
         </div>
         <div class="col-12 col-md-6">
             <div class="row">
-                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA"
-                        onclick="answerA_clicked()">Answer #1</button>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA" onclick="answerA_clicked()">Answer #1</button>
                 </div>
-                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id=" answerB"
-                        onclick="answerB_clicked()">Answer #2</button>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id="answerB" onclick="answerB_clicked()">Answer #2</button>
                 </div>
-                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC"
-                        onclick="answerC_clicked()">Answer #3</button>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC" onclick="answerC_clicked()">Answer #3</button>
                 </div>
             </div>
         </div>
@@ -201,9 +198,10 @@ function mediumLevel() {
     btnProvideQuestion();
 }
 
+// hard option function, where difficulty is set to 3, as opposed to initial value of 1
 function hardLevel() {
     difficulty = 3;
-    document.getElementById("looseEndGame").innerHTML = `                            <!-- Score comes here -->
+    document.getElementById("looseEndGame").innerHTML = `<!-- Score comes here -->
     <div class="row">
         <div class="col-12">
             <h4>Your score: <span id="score">0</span></h4>
@@ -217,14 +215,11 @@ function hardLevel() {
         </div>
         <div class="col-12 col-md-6">
             <div class="row">
-                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA"
-                        onclick="answerA_clicked()">Answer #1</button>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA" onclick="answerA_clicked()">Answer #1</button>
                 </div>
-                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id=" answerB"
-                        onclick="answerB_clicked()">Answer #2</button>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id="answerB" onclick="answerB_clicked()">Answer #2</button>
                 </div>
-                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC"
-                        onclick="answerC_clicked()">Answer #3</button>
+                <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC" onclick="answerC_clicked()">Answer #3</button>
                 </div>
             </div>
         </div>
@@ -289,14 +284,14 @@ function checkAnswer(answer) {
     if (answer == randomQuestion.rightAnswer) {
         adjustScore(true);
         btnProvideQuestion();
-        document.getElementById("correctOrNotValue").innerHTML = "Wrong Answer";
+        document.getElementById("correctOrNotValue").innerHTML = "Right Answer";
 
         if (currentScore === 10) {
             document.getElementById("looseEndGame").innerHTML = `<h1>You have Won!</h1> <br> <button class="btn btnDarkstyle" onclick="init()">Play Again</button>`;
         }
     } else {
         adjustScore(false);
-        document.getElementById("correctOrNotValue").innerHTML = "Right Answer";
+        document.getElementById("correctOrNotValue").innerHTML = "Wrong Answer";
 
         if (currentScore === 0 || currentScore < 0) {
             document.getElementById("looseEndGame").innerHTML = `<h1>You have lost!</h1> <br> <button class="btn btnDarkstyle" onclick="init()">Play Again</button>`;
@@ -304,7 +299,7 @@ function checkAnswer(answer) {
     }
 }
 
-// restart the game, when lost & start over, or, reset game when won!!
+// restart the game, when lost & start over, or, reset game when won, and choose a difficulty level
 function init() {
     currentScore = 0;
     document.getElementById("looseEndGame").innerHTML = `<!-- Replay game, starts here -->
@@ -312,13 +307,10 @@ function init() {
         <div class="col-12">
             <p>Select difficulty Level:</p>
         </div>
-        <div class="col-12 mb-2"><button class="btn btnLightDarkstyle"
-                onclick="easyLevel()">Easy</button>
+        <div class="col-12 mb-2"><button class="btn btnLightDarkstyle" onclick="easyLevel()">Easy</button>
         </div>
-        <div class="col-12 mb-2"><button class="btn btnLightDarkstyle"
-                onclick="mediumLevel()">Medium</button></div>
-        <div class="col-12 mb-2"><button class="btn btnLightDarkstyle"
-                onclick="hardLevel()">Hard</button>
+        <div class="col-12 mb-2"><button class="btn btnLightDarkstyle" onclick="mediumLevel()">Medium</button></div>
+        <div class="col-12 mb-2"><button class="btn btnLightDarkstyle" onclick="hardLevel()">Hard</button>
         </div>
     </div>
     <!-- Replay game, Ends here -->`;
