@@ -331,6 +331,18 @@ This variable is called on, when pressing the dark/light theme button
 2. **Unused variable randomBackground** <br>
 This variable is called on with onload, when page loads, to randomly create a background.
 
+***`quiz.js`:*** [20 warnings and seven unused variables](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidator/quiz.png)
+1. **17 warnings resolved, which refer to ES6** <br>
+As I used ES6 JavaScript, I had to add `/*jshint esversion: 6 */` to my code, as comment on top. Since adding this, there are three warnings left.
+1. **Unnecessary semicolon** <br>
+On line #49, there was a semicolon, which was not necessary, removed it, fixed this error.
+1. **Unnecessary semicolon** <br>
+On line #54, there was a semicolon, which was not necessary, removed it, fixed this error.
+1. **Forgot to remove debugger mode** <br>
+This error was fixed by removing the debugger mode, since, error was resolved.
+1. **Unused variables** <br>
+The variables which are advised to be unused, are called on, in the HTML code, which is generated through the buttons and functions.
+
 ##### JavaScript Testing
 Testing of my project has been done manually, as I wasn't confident yet with Jasmine testing. I am getting more confident, in putting it to practice, but as this project was constraint with time, I wanted to not make mistakes, and decided to go with manual testing instead.
 
@@ -347,6 +359,7 @@ This allowed me to confirm that when for instance, on the `characters.html` page
 I then knew, my code worked, because it outputted a "0" for value matching, on either option.
 6. For the theme switcher, I opened DevTools and looked at multiple options, one was that I looked under "application" and then "Local Storage", to confirm it was present in "Local Storage". I also performed several tests using console.log, to confirm the right keyword was stored.
 7. For the `places.html` page, I created a dropdown list, added one value, and then ran through the values. At first it added all my markers, and not changed / removed the previous one, but this was quickly resolved by adding `markerXXX.remove();` to the script, which solved this issue.
+8. For the `quiz.html`, I ran through debugger mode, which the original writer of the unadjusted code inserted, I then added a debugger to my own parts, and console logged it, to confirm it was giving the appropriate values when selecting a difficulty level, and, the deductions where working as intended. Once this was confirmed, the game worked, and removed the debugger code, and also the console logs, and then pushed it to my repo.
 
 This is how I attacked all my scripts, and, tested and re-run them multiple instances, and console logged them fully, until I understood the correct handling of my code, and, was happy with the results, before removing any remaining `console.log()` statements.
 
