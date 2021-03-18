@@ -1,6 +1,12 @@
-// empty charactersArray & quotesArray to store the API JSON data
+// empty variables, to be used later onwards & default variables...
 let charactersArray = [];
 let quotesArray = [];
+let char;
+let randomIndex;
+let randomQuotes;
+let randomCharacter;
+const quotesJsInsert = document.getElementById("quotesJsInsert");
+const charactersJsInsert = document.getElementById("charactersJsInsert");
 
 // Load quotes from BreakingBadAPI.com, and store them inside QuotesArray to work from later
 function loadQoutes() {
@@ -13,6 +19,7 @@ function loadQoutes() {
         }
     };
 }
+
 // Load Characters from BreakingBadAPI.com, and store them inside charactersArray to work from later
 function loadChars(cb) {
     const xhr = new XMLHttpRequest();
@@ -60,7 +67,7 @@ function showQuotes() {
   <p class="mb-0">${randomQuotes.quote}</p>
   <footer class="blockquote-footer">${randomQuotes.author}</footer>
 </blockquote>`);
-        document.getElementById("quotesImage").setAttribute("src", findCharactersImage(randomQuotes.author))
+        document.getElementById("quotesImage").setAttribute("src", findCharactersImage(randomQuotes.author));
     } else {
         alert("There is a problem with Random Quotes... Please send me an email so I can fix it...");
     }
