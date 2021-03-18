@@ -128,28 +128,24 @@ a:hover {
     display: inline-block !important;
 }
 
-/* Removing this styling as it's not needed anymore, we're styling the button according to the general styling rules */
-/* .darkModeButton {
-    height: 40px;
-    width: 200px;
-    outline: none;
-    background: black;
-    border: black solid 2px;
-    color: white;
-} */
-
 /* ==================== Main section, header image */
 .mainImageRow {
     height: 85vh;
     background: url(../images/darkMode/1.jpg) no-repeat center center fixed;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+}
+
+/* Solution found on https://stackoverflow.com/questions/24154666/background-size-cover-not-working-on-ios */
+@supports (-webkit-touch-callout : none) {
+    .mainImageRow {
+        background-attachment: scroll
+    }
+}
+
+@supports not (-webkit-touch-callout : none) {
+    .mainImageRow {
+        background-attachment: fixed;
+    }
 }
 
 .mainSectionIntroText {
