@@ -29,14 +29,22 @@ I wanted to add User Stories separately, to avoid overcluttering the main `READM
     ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyTwoFourOne.png)<br>
     ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyTwoFourTwo.png)
 3. As a visitor, I want to play a game, or test my knowledge about the series.
-    1. User arrives at [BreakingBadMe](https://michaeldijk.github.io/breakingbadme/index.html)
+    1. User arrives at [BreakingBadMe](https://michaeldijk.github.io/breakingbadme/index.html)<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneOne.png)<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneOneTwo.png)
     2. User then clicks on the menu (if moble), or on chooses ***Trivia*** from the menu on top
         1. User can also select ***Trivia*** from the main page, at the bottom of the page.<br>
     ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoOne.png)<br>
     ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoTwo.png)
-    3. User then arrives at the ***Trivia*** page, and scrolls down
-    4. User then selects ***How to Play*** to read the rules
-    5. User then selects difficulty, and can start playing the game
+    3. User then arrives at the ***Trivia*** page, and scrolls down<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyThreeThreeOne.png)<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyThreeThreeTwo.png)
+    4. User then selects ***How to Play*** to read the rules<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyThreeFourOne.png)<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyThreeFourTwo.png)
+    5. User then selects difficulty, and can start playing the game<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyThreeFiveOne.png)<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyThreeFiveTwo.png)
 4. As a visitor, and a dark theme user, I want to adjust the site, so that it suits my style/needs
     1. User arrives at [BreakingBadMe](https://michaeldijk.github.io/breakingbadme/index.html)
     2. User then clicks on the menu (if moble), or on chooses ***Light Mode*** from the menu on top<br>
