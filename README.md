@@ -211,7 +211,13 @@ I created a separate markdown file, for the user story testing, please click the
 * [User Stories](https://github.com/michaeldijk/breakingbadme/blob/main/USERSTORIES.md)
 
 #### Manual testing across devices / Browsers
-
+I tested the site with different devices and browsers, see my notes below, for each test:
+* Mobile: I discovered while testing on Mobile, that Android worked well, with the main `mainImageRow` styling, where I added `background fixed`, but this function doesn't work well on iOS devices, therefore implemented a fix found on [Stack overflow](https://stackoverflow.com/questions/24154666/background-size-cover-not-working-on-ios)
+* Opened the site on different browsers: Chrome, Safari, Opera, Edge, to make sure all the functions where working and visuals where displaying correctly.
+1. Opened the site on each browser, and checked each function off one by one on each browser.<br>
+([Brave](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/browsers/brave.png) || [Chrome](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/browsers/chrome.png) || [Edge](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/browsers/edge.png) || [FireFox](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/browsers/firefox.png) || [opera](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/browsers/opera.png) || [Vivaldi](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/browsers/vivaldi.png))
+2. I did this, by going into each page, and tested each section one by one
+    1. I noticed that Firefox, was the quickest of my manual testing, but, overall the experience was quite similar
 
 #### HTML
 ##### Code validator
@@ -454,6 +460,7 @@ I have used several sources to contribute to solutions, and all sources that was
 ##### CSS
 * [CSS-Tricks](https://css-tricks.com/perfect-full-page-background-image/) - For help with getting the main section image to align, centered and on each device.
 * [W3schools](https://www.w3schools.com/css/css3_object-fit.asp) - Helped me with allowing images not to resize to much, on the random Character generator on the main page
+* [Stack overflow](https://stackoverflow.com/questions/24154666/background-size-cover-not-working-on-ios) - Helped with fixing the main heading image, which was set to fixed, and this caused it to not be visible correctly on iOS, with the help of this page/solution, I solved this issue
 
 ##### JavaScript
 * [Stack overflow](https://stackoverflow.com/questions/26709969/call-javascript-function-onchange-event-of-dropdown-list) - Used this as a partial solution to create my dropdown selection in the Characters page, adjusted it to suit my code, and need.
