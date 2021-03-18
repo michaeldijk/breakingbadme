@@ -75,7 +75,7 @@
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <button id="themeToggleButton" onclick="toggleDarkLightTheme()" class="btn btnDarkstyle"><i
+                        <button id="themeToggleButton" onclick="toggleDarkLightTheme()" class="btn btnLightDarkstyle"><i
                                 class="fas fa-sun"></i> Light Mode</button>
                     </li>
                 </ul>
@@ -101,49 +101,16 @@
             <div class="row justify-content-center align-content-center mainSectionRow">
                 <div class="col-10 mainSectionIntroductionCol text-center">
                     <h3>Test your Breaking Bad Knowledge...</h3>
-                    <h4>How to play?</h4>
-                    <p>The game starts, once you select an answer. The game counts to ten points, and then you win.</p>
-                    <p>If you given a wrong answer, the game will advise you it's wrong, and you can guess again. Upon
-                        giving a wrong answer, it'll deduct one point.</p>
-                    <p>If you end up with "0" points, you loose, and you can play again.</p>
+                    <p>I would highly suggest to read up about some of the content on the site, to play the trivia
+                        questions game.</p>
+                    <p>If you think you know everything there is about Breaking Bad, please do play the game below..</p>
                     <!-- Start Quiz -->
                     <div class="container-fluid triviaContainer">
+                        <!-- Content of game comes here, by pressing on right buttons/selections -->
                         <div id="looseEndGame">
-                            <!-- Score comes here -->
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4>Your score: <span id="score">0</span></h4>
-                                </div>
-                            </div>
-                            <!-- Score End -->
-                            <!-- Question / Answer here -->
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <h4 id="question">Question comes here</h4>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="row">
-                                        <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerA"
-                                                onclick="answerA_clicked()">Answer #1</button>
-                                        </div>
-                                        <div class="col-12 pb-2"><button class="btn btnLightDarkstyle id=" answerB"
-                                                onclick="answerB_clicked()">Answer #2</button>
-                                        </div>
-                                        <div class="col-12 pb-2"><button class="btn btnLightDarkstyle" id="answerC"
-                                                onclick="answerC_clicked()">Answer #3</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Question / Answer here end -->
-                            <!-- Right / Wrong answer here -->
-                            <div class=" row">
-                                <div class="col-12">
-                                    <p id="correctOrNotValue">Right / wrong comes here</p>
-                                </div>
-                            </div>
-                            <!-- Right / Wrong answer end here -->
+                            <!-- Content for the game comes here... -->
                         </div>
+                        <!-- End Content of game comes here, by pressing on right buttons/selections -->
                     </div>
                     <!-- End Quiz -->
                 </div>
