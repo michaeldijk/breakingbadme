@@ -37,7 +37,7 @@ function toggleDarkLightTheme() {
 
 function randomBackground() {
     const styleSheet = document.getElementById("cssStyling").href;
-    const img = ["1.jpg", "2.jpg", "3.jpg", "4.jpg"];
+    const img = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"];
     const size = img.length;
     const x = Math.floor(size * Math.random());
 
