@@ -298,6 +298,12 @@ Resolved this by adding `/*globals $:false */` to the top of my script, to let i
 1. **Missing semicolon** <br>
 Fixed this error, by adding the semicolon on line #5.
 
+***`emailForm.js`:*** [One undefined variable, One unused variable](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidator/emailForm.png)
+1. **Undefined variable emailjs** <br>
+This is the parameter that is used for the form script, and we cannot assign an empty variable to it in global, therefore this error remains, but it's the intended way of the script.
+1. **Unused variable sendMail** <br>
+This is used in `contact.html` on submission of the form.
+
 
 #### Unsolved Issues
 
