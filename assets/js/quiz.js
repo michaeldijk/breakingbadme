@@ -239,3 +239,67 @@ function hardLevel() {
     <!-- Right / Wrong answer end here -->`;
     btnProvideQuestion();
 }
+
+function btnProvideQuestion() {
+
+    const randomNumber = Math.floor(Math.random() * quiz.length);
+    randomQuestion = quiz[randomNumber]; //getQuestion
+    answers = [randomQuestion.rightAnswer, randomQuestion.wrongAnswer1, randomQuestion.wrongAnswer2];
+    shuffle(answers);
+
+    document.getElementById("question").innerHTML = randomQuestion.question;
+    document.getElementById("answerA").value = answers[0];
+    document.getElementById("answerA").innerHTML = answers[0];
+    document.getElementById("answerB").value = answers[1];
+    document.getElementById("answerB").innerHTML = answers[1];
+    document.getElementById("answerC").value = answers[2];
+    document.getElementById("answerC").innerHTML = answers[2];
+
+}
+
+function answerA_clicked() {
+    const answerA = document.getElementById("answerA").value;
+    checkAnswer(answerA);
+}
+
+function answerB_clicked() {
+    const answerB = document.getElementById("answerB").value;
+    checkAnswer(answerB);
+}
+
+function answerC_clicked() {
+    const answerC = document.getElementById("answerC").value;
+    checkAnswer(answerC);
+}
+
+function adjustScore(isCorrect) {
+    debugger;
+    if (isCorrect) {
+        currentScore++;
+    } else {
+        if (currentScore > 0) {
+            currentScore -= difficulty;
+            console.log(currentScore);
+        }
+    }
+    document.getElementById("score").innerHTML = currentScore;
+}
+
+function checkAnswer(answer) {
+    if (answer == randomQuestion.rightAnswer) {
+        adjustScore(true);
+        btnProvideQuestion();
+        document.getElementById("correctOrNotValue").innerHTML = "Wrong Answer";
+
+        if (currentScore === 10) {
+            document.getElementById("looseEndGame").innerHTML = `<h1>You have Won!</h1> <br> <button class="btn btnDarkstyle" onclick="init()">Play Again</button>`;
+        }
+    } else {
+        adjustScore(false);
+        document.getElementById("correctOrNotValue").innerHTML = "Right Answer";
+
+        if (currentScore === 0 || currentScore < 0) {
+            document.getElementById("looseEndGame").innerHTML = `<h1>You have lost!</h1> <br> <button class="btn btnDarkstyle" onclick="init()">Play Again</button>`;
+        }
+    }
+}
