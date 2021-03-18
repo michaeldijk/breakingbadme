@@ -254,15 +254,43 @@ There was an empty media-query, which I didn't remove, removed it, and since, th
 ##### Code Validator
 When I completed my JavaScript code, I carried out a validation test, by using [JSHint](https://jshint.com/), which is a code validator, for JavaScript, to discover and resolve any potential errors which could be present in your code.
 
-***`charactersQuoteScript.js`:*** [Seven warnings, Six undefined variables, four unused variables](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidation/charactersQuoteScript.png)
+***`charactersQuoteScript.js`:*** [Seven warnings, Six undefined variables, four unused variables](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidator/charactersQuoteScript.png)
 1. **Six warnings resolved, which refer to ES6** <br>
 As I used ES6 JavaScript, I had to add `/*jshint esversion: 6 */` to my code, as comment on top. Since adding this, there was one warning left.
-2. **65	Missing semicolon.** <br>
+2. **Missing semicolon.** <br>
 Resoved this error, by adding a semicolon at the end of line #65.
 3. **Six undefined variables** <br>
 Resolved these errors, by adding empty variables on top, to allow them to be used/overwritten in my code later, when accessed, and assign them default values.
 4. **Four unused variables** <br>
 These are not needed to be resolved, as these variables (functions), are loaded in `index.html`, with `onload`, or called on when a button is pressed.
+
+***`charactersScript.js`:*** [Nine warnings, Five undefined variables, Three unused variables](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidator/charactersQuoteScript.png)
+1. **Five warnings resolved, which refer to ES6** <br>
+As I used ES6 JavaScript, I had to add `/*jshint esversion: 6 */` to my code, as comment on top. Since adding this, there where four warnings left.
+2. **Unnecessary semicolon** <br>
+Resolved this by removing a semicolon on line #25.
+3. **Missing semicolon** <br>
+Resolved this by adding a semicolon on line #41.
+4. **Unnecessary semicolon** <br>
+Resolved this by removing a semicolon on line #44.
+5. **Missing semicolon** <br>
+Resolving this by adding a semicolon on line #58.
+6. **Undefined variable charactersArray** <br>
+This variable is defined in the script `charactersQuoteScript.js`, and this is loaded in the HTML document, therefore it reports it as empty, as it's not available directly in the script itself.
+6. **Undefined variable option** <br>
+Resolved this by adding an empty variable on top, to allow to be used/overwritten in my code later.
+6. **Undefined variable charactersJsInsert** <br>
+This variable is defined in `charactersQuoteScript.js`, which is loaded in as well.
+6. **Undefined variable randomIndex** <br>
+This variable is defined in `charactersQuoteScript.js`, which is loaded in as well.
+6. **Undefined variable randomCharacter** <br>
+This variable is defined in `charactersQuoteScript.js`, which is loaded in as well.
+6. **Unused variable loadCharsSelector** <br>
+This function is used as callback to loadChars in `charactersQuoteScript.js`
+6. **Unused variable charactersDropdownSelection** <br>
+This function is used on the dropdown selection field, to create the list of characters.
+6. **Unused variable charactersRandomInput** <br>
+This function is used as callback to loadChars in `charactersQuoteScript.js`
 
 
 #### Unsolved Issues
