@@ -318,6 +318,16 @@ These warnings could not be solved, as this is the way markers are added / coded
 3. **Unused variable selectPlace** <br>
 This variable is used when using the select dropdown in the page, and it is adjusted with changing the selection option.
 
+***`themeswitcher.js`:*** [51 warnings](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidator/leafletscript.png) & [continued](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidator/leafletscript1.png)
+1. **11 warnings resolved, which refer to ES6** <br>
+As I used ES6 JavaScript, I had to add `/*jshint esversion: 6 */` to my code, as comment on top. Since adding this, there was one warning left.
+2. **Warning unnecessary semicolon** <br>
+Resolved this error, by removing the unnecessary semicolon.
+2. **Unused variable toggleDarkLightTheme** <br>
+This variable is called on, when pressing the dark/light theme button
+2. **Unused variable randomBackground** <br>
+This variable is called on with onload, when page loads, to randomly create a background.
+
 #### Unsolved Issues
 
 ### Version Control
