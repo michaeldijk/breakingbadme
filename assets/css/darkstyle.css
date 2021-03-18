@@ -282,6 +282,14 @@ a:hover {
     color: black;
 }
 
+/* ==================== 404 page Styling */
+.mainImage404Row {
+    height: 100vh;
+    background: url(../images/darkMode/1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
 /* ==================== Media Queriesss */
 /* iPhone X etc ===== */
 @media only screen and (min-width: 375px) {
