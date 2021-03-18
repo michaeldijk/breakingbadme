@@ -50,3 +50,75 @@ function shuffle(o) {
     for (let j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
 };
+
+function difficultyLevel() {
+    document.getElementById("looseEndGame").innerHTML = `<!-- Start game, first time code insert -->
+    <div class="row">
+        <div class="col-12 mb-2">
+            <p>Want to know how to play? Select the button below to read up about the functions
+                of the game...</p>
+        </div>
+        <div class="col-12 mb-2"><button type="button" class="btn btn-warning"
+                data-bs-toggle="modal" data-bs-target="#modalRules">
+                How to play...
+            </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="modalRules" tabindex="-1" aria-labelledby="gameRulesModal"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="gameRulesModal">Rules of the game...</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>First, you need to select a difficulty.</p>
+                        <p>Difficulty levels are as followed:</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Eror rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Easy</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>Medium</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>Hard</td>
+                                    <td>3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>The error rate, is the amount of deductions per wrong question, you
+                            start at "0", and each correct question, you get "1" point.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btnLightDarkstyle"
+                            data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <p>Select difficulty Level:</p>
+        </div>
+        <div class="col-12 mb-2"><button class="btn btnLightDarkstyle"
+                onclick="easyLevel()">Easy</button>
+        </div>
+        <div class="col-12 mb-2"><button class="btn btnLightDarkstyle"
+                onclick="mediumLevel()">Medium</button></div>
+        <div class="col-12 mb-2"><button class="btn btnLightDarkstyle"
+                onclick="hardLevel()">Hard</button>
+        </div>
+    </div>
+    <!-- End first time game code input -->`;
+}
