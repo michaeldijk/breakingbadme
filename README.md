@@ -238,6 +238,9 @@ Fixed error by removing straying tag.
 
 ***`contact.html`:*** No errors found.
 
+##### HTML Lighthouse Testing
+
+
 #### CSS
 * Naming conventions: Made a mistake with the button class I created, as I named it `btnDarkstyle`, but this naming, did not suit both CSS styling, so it's renamed to `btnLightDarkstyle`.
 
@@ -396,6 +399,7 @@ I have used several sources to contribute to solutions, and all sources that was
 * [Bootstrap5, BETA2](https://getbootstrap.com/) - I used Bootstrap 5.0.0 BETA as my framework
 * [Favicon-Generator](https://www.favicon-generator.org/) - Used to generate the favicon icon, and code to accompany the icon
 * [Codeply | Skelly](https://www.codeply.com/p/P0KN7DNsEq) - Used example #1, and adjusted it to suit my site/needs, as I wanted to style the dark/lightmode button on the right, center Navbar-Brand and left the links to the site, this example showed exactly how to use the Bootstrap Navbar.
+* [Codepen | Sanne van Tongelen](https://codepen.io/savant/pen/gbaveO) - Used this quiz example, and adjusted it to suit my site/needs, as I wanted to create a quiz as addition to my other options (API integration (leafletJS maps / breakingbad API)), this example showed exactly how to create a simple quiz. I then incorporated a difficulty level, option, a modal to explain the options / use, and a restart at the end of the game, for both win & loosing. Code has been atributed correctly.
 
 ##### CSS
 * [CSS-Tricks](https://css-tricks.com/perfect-full-page-background-image/) - For help with getting the main section image to align, centered and on each device.
