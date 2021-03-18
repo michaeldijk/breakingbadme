@@ -343,6 +343,10 @@ This error was fixed by removing the debugger mode, since, error was resolved.
 1. **Unused variables** <br>
 The variables which are advised to be unused, are called on, in the HTML code, which is generated through the buttons and functions.
 
+***`loader.js`:*** [One undefined variable](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidator/loader.png)
+1. **Undefined variable, which is due to use of JQuery** <br>
+Resolved this by adding `/*globals $:false */` to the top of my script, to let it know I'm using JQuery on checking in JSHint.
+
 ##### JavaScript Testing
 Testing of my project has been done manually, as I wasn't confident yet with Jasmine testing. I am getting more confident, in putting it to practice, but as this project was constraint with time, I wanted to not make mistakes, and decided to go with manual testing instead.
 
@@ -364,6 +368,7 @@ I then knew, my code worked, because it outputted a "0" for value matching, on e
 This is how I attacked all my scripts, and, tested and re-run them multiple instances, and console logged them fully, until I understood the correct handling of my code, and, was happy with the results, before removing any remaining `console.log()` statements.
 
 #### Unsolved Issues
+
 
 ### Version Control
 
