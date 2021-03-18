@@ -1,5 +1,5 @@
 // Credit: Sanne van Tongelen @ https://codepen.io/savant/pen/gbaveO
-// Code adjusted and added functions, to create an interactive game for user with quiz functions
+// Code adjusted and added functions, to create an interactive game for user with quiz functions, restart game, and level of difficulty.
 
 // default variables
 const quiz = []; // empty quiz array, which will take a quiz option from below
