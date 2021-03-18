@@ -10,6 +10,18 @@ Made by Michael Dyk, (c) 2021, as milestone #2 for Code Institute
 font-family: 'Work Sans', sans-serif; - 300 for texts.*/
 
 /* ==================== General styling */
+/* Loader as first, to allow it to load fastest */
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(https://media.giphy.com/media/HhWG41ntlV6UM/source.gif) 50% 50% no-repeat;
+    background-color: black;
+}
+
 body {
     background: url(../images/lightStylePatternBackground.jpg);
     background-repeat: repeat;
