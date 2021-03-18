@@ -308,7 +308,15 @@ This is used in `contact.html` on submission of the form.
 1. **Undefined variable, which is due to use of JQuery** <br>
 Resolved this by adding `/*globals $:false */` to the top of my script, to let it know I'm using JQuery on checking in JSHint.
 
-
+***`leafletscript.js`:*** [51 warnings](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidator/leafletscript.png) & [continued](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidator/leafletscript1.png)
+1. **42 warnings resolved, which refer to ES6** <br>
+As I used ES6 JavaScript, I had to add `/*jshint esversion: 6 */` to my code, as comment on top. Since adding this, there where nine warnings left.
+2. **Nine warnings, which are caused due to leafLet JS** <br>
+These warnings could not be solved, as this is the way markers are added / coded, when adding it to the map.
+3. **Undefined variable, due to leafLet JS** <br>
+`L`, is a value specified in the leafLet JS documentation, that markers are assigned using `L.marker`, therefore this undefined variable is present.
+3. **Unused variable selectPlace** <br>
+This variable is used when using the select dropdown in the page, and it is adjusted with changing the selection option.
 
 #### Unsolved Issues
 
