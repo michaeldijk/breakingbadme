@@ -292,6 +292,12 @@ This function is used on the dropdown selection field, to create the list of cha
 6. **Unused variable charactersRandomInput** <br>
 This function is used as callback to loadChars in `charactersQuoteScript.js`
 
+***`closingMenus.js`:*** [One warning, One undefined variable](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidator/closingMenus.png)
+1. **Undefined variable, which is due to use of JQuery** <br>
+Resolved this by adding `/*globals $:false */` to the top of my script, to let it know I'm using JQuery.
+1. **Missing semicolon** <br>
+Fixed this error, by adding the semicolon on line #5.
+
 
 #### Unsolved Issues
 
