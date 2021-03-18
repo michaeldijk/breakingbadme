@@ -44,12 +44,12 @@ function Question(question, rightAnswer, wrongAnswer1, wrongAnswer2) {
     this.rightAnswer = rightAnswer;
     this.wrongAnswer1 = wrongAnswer1;
     this.wrongAnswer2 = wrongAnswer2;
-};
+}
 
 function shuffle(o) {
     for (let j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
-};
+}
 
 // start function, to load when game is starting, on initial value, this function is loaded with the event-listener
 function difficultyLevel() {
@@ -126,7 +126,6 @@ function difficultyLevel() {
 
 // Easy option function, where difficulty is set to 2, as opposed to initial value of 1
 function easyLevel() {
-    debugger;
     difficulty = 1;
     document.getElementById("looseEndGame").innerHTML = `<!-- Score comes here -->
     <div class="row">
