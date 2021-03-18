@@ -22,8 +22,12 @@ I wanted to add User Stories separately, to avoid overcluttering the main `READM
     2. User then clicks on the menu (if moble), or on chooses ***Places*** from the menu on top<br>
     ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoOne.png)<br>
     ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyOneTwoTwo.png)
-    3. User then arrives at the ***Places*** page, and scrolls down
-    4. User can then select the dropdown field, and select the required location they want to know more about
+    3. User then arrives at the ***Places*** page, and scrolls down<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyTwoThreeOne.png)<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyTwoThreeTwo.png)
+    4. User can then select the dropdown field, and select the required location they want to know more about<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyTwoFourOne.png)<br>
+    ![image](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/userStories/storyTwoFourTwo.png)
 3. As a visitor, I want to play a game, or test my knowledge about the series.
     1. User arrives at [BreakingBadMe](https://michaeldijk.github.io/breakingbadme/index.html)
     2. User then clicks on the menu (if moble), or on chooses ***Trivia*** from the menu on top
