@@ -178,10 +178,13 @@ Each season, is categorized in ranking, from [Ranker](https://www.ranker.com/app
 This page further changes according to view-window, and larger windows, have a different view, with image on left besides the map, and description below it.
 
 #### Trivia
-
+* The trivia page, incorporates a trivia game, this game was originally found on a codepen, and I've added the correct references to the code, in both my readme, and the script itself. I further enhanced this script, by including a reset option, different functions, added a pop-up to explain the game features, and the different difficulty levels.
 
 #### Contact
 * The contact page, has a contact section, where users can send a request, or, just send in feedback. The contact form, is incorporated with emailJS, and, it sends a pop-up, once the form is processed, that it's send out.
+
+#### 404
+* Created a custom 404 page, to cover errors, if ever there is one, and, to allow same styling within the rest of the site, if error is present.
 
 #### Features left to implement
 * 
@@ -204,7 +207,10 @@ This page further changes according to view-window, and larger windows, have a d
 The following section, describes how the site and it's features have been tested, to make sure it works across the different view-windows and browsers.
 
 #### User Story Testing
+
+
 #### Manual testing across devices / Browsers
+
 
 #### HTML
 ##### Code validator
@@ -234,7 +240,11 @@ Fixed error by removing straying tag.
 2. **Error: Stray end tag div.** <br>
 Fixed error by removing straying tag.
 
-***`trivia.html`:*** 
+***`trivia.html`:*** [2 Errors](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/htmlValidator/trivia.png)
+1. **Error: End tag section seen, but there were open elements.** <br>
+Fixed this error, by fixing error number two.
+2. **Error: Unclosed element div.** <br>
+Fixed this error, by adding a closing div on line #117, and section moved to line #118.
 
 ***`contact.html`:*** No errors found.
 
