@@ -1,4 +1,4 @@
-// emailJS form from CI lecture, adjusted
+// emailJS form from CI lecture, adjusted to suit my needs.
 function sendMail(contactForm) {
     emailjs.send("emailJSOutlook", "bbEmailTemplate", {
             // take values from form, and pass it to emailJS    
