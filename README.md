@@ -294,7 +294,7 @@ This function is used as callback to loadChars in `charactersQuoteScript.js`
 
 ***`closingMenus.js`:*** [One warning, One undefined variable](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidator/closingMenus.png)
 1. **Undefined variable, which is due to use of JQuery** <br>
-Resolved this by adding `/*globals $:false */` to the top of my script, to let it know I'm using JQuery.
+Resolved this by adding `/*globals $:false */` to the top of my script, to let it know I'm using JQuery, on checking in JSHint.
 1. **Missing semicolon** <br>
 Fixed this error, by adding the semicolon on line #5.
 
@@ -303,6 +303,11 @@ Fixed this error, by adding the semicolon on line #5.
 This is the parameter that is used for the form script, and we cannot assign an empty variable to it in global, therefore this error remains, but it's the intended way of the script.
 1. **Unused variable sendMail** <br>
 This is used in `contact.html` on submission of the form.
+
+***`episodes.js`:*** [One undefined variable](https://raw.githubusercontent.com/michaeldijk/breakingbadme/main/assets/readMeFiles/testing/jsValidator/episodes.png)
+1. **Undefined variable, which is due to use of JQuery** <br>
+Resolved this by adding `/*globals $:false */` to the top of my script, to let it know I'm using JQuery on checking in JSHint.
+
 
 
 #### Unsolved Issues
