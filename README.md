@@ -187,7 +187,7 @@ This page further changes according to view-window, and larger windows, have a d
 * Created a custom 404 page, to cover errors, if ever there is one, and, to allow same styling within the rest of the site, if error is present.
 
 #### Features left to implement
-* 
+* No features left to implement, all features are implemented as we wanted too.
 
 ### Technologies Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML) - General website MarkUp
@@ -207,7 +207,8 @@ This page further changes according to view-window, and larger windows, have a d
 The following section, describes how the site and it's features have been tested, to make sure it works across the different view-windows and browsers.
 
 #### User Story Testing
-
+I created a separate markdown file, for the user story testing, please click the following link:
+* [User Stories](https://github.com/michaeldijk/breakingbadme/blob/main/USERSTORIES.md)
 
 #### Manual testing across devices / Browsers
 
