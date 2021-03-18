@@ -253,6 +253,10 @@ a:hover {
     margin-top: 15px;
 }
 
+.modal {
+    color: black;
+}
+
 /* ==================== Media Queriesss */
 /* iPhone X etc ===== */
 @media only screen and (min-width: 375px) {
