@@ -43,6 +43,8 @@ It has two different views, lightmode and darkmode, see mockups below:
     * [JavaScript](https://github.com/michaeldijk/breakingbadme#javascript)
     * [Unsolved issues](https://github.com/michaeldijk/breakingbadme#unsolved-issues)
 * [Version Control](https://github.com/michaeldijk/breakingbadme#version-control)
+* [Project barriers & Solutions](https://github.com/michaeldijk/breakingbadme#version-control)
+    * [Project barriers & Solutions - General](https://github.com/michaeldijk/breakingbadme#version-control)
 * [Deployment](https://github.com/michaeldijk/breakingbadme#deployment)
 * [How to run this project locally](https://github.com/michaeldijk/breakingbadme#how-to-run-this-project-locally)
 * [Credits](https://github.com/michaeldijk/breakingbadme#credits)
@@ -392,6 +394,17 @@ This is how I attacked all my scripts, and, tested and re-run them multiple inst
 
 #### Unsolved Issues
 * No unsolved issues at present.
+
+#### Project barriers & Solutions
+* I had some issues how to go over different backgrounds, with the two style options that I created. Together with the help of [Stack overflow](https://stackoverflow.com/questions/31277685/change-background-image-of-a-div-everytime-page-refresh) - I was able to implement this into my site. I then added an if else statement to find out if it was either on light theme or dark theme, and then adjusted the images accordingly.
+* I also didn't fully understand the use of localStorage, but with the help of [Prototypr Blog](https://developer.mozilla.org/en-US/) - I was albe to understand how to implement this option, and adjusted it accordingly. 
+* I created some interfaces that worked together with [The Breaking Bad API](https://breakingbadapi.com//) - At first, I was constantly reloading the API and it's array's, but with the help of my Mentor, I was able to tackle this, and save it into array's and work from those array's instead
+* I found it difficult to create the dropdown field at first with the data from the array, but with the help of [Stack overflow](https://stackoverflow.com/questions/26709969/call-javascript-function-onchange-event-of-dropdown-list) - I was able to implement this, and adjust it to my needs
+
+##### Project barriers & Solutions - General
+* At the beginning, I had issues with understanding JavaScript. I started the project about a month ago, and wanted to cover almost (if possible) all aspects of each project, that was given as examples. With this in mind, I have been able to make a great site, with great features and UX. It follows UX principles, albeit the load is a little bit longer than I would have wanted, but this is due to large images, and solved with a "loader"
+* There where times, where I found that I didn't understand anything, i.e. the leafletJS map, but perserverence and working through the leaflefJS documentation has helped tremendously, and, with help of the Code Institute documentation, I was able to implement an if else, else if statement, to run through the markers
+* I am very pleased and happy with the results, and the website has all the features that I wanted to implement.
 
 ### Version Control
 [Git](https://git-scm.com/) was used as local repository, and [GitHub](https://github.com/) as a remote repository.
