@@ -480,6 +480,9 @@ I have used several sources to contribute to solutions, and all sources that was
 * [Flaticon](https://www.flaticon.com/pattern/) - To create the patterned background for the dark/light theme
 * [Favicon-Generator](https://www.favicon-generator.org/) - Used to generate the favicon icon, and code to accompany the icon
 * [Giphy](https://giphy.com/gifs/breaking-bad-money-HhWG41ntlV6UM) - Used for the loader, the Breaking Bad Money teller
+* [Conde Nast Traveller](https://www.cntraveller.com/gallery/where-is-better-call-saul-filmed) - Used image from Twisters restaurant
+* [Breaking Bad Locations](https://www.breakingbad-locations.com) - Used image from Better Caul Saul's business
+* [Roadtrippers](https://maps.roadtrippers.com/trips/10314584) - Used for the remainder of locations images
 
 ##### Text
 * [Ranker](https://www.ranker.com/app/search.htm?q=breaking%20bad) - Used to find lists for each season for the show, and accompanying texts for each episode, and order them according to rank from ranker.com
