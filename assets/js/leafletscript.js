@@ -79,7 +79,7 @@ function selectPlace(menu) {
         marker.flyTo;
         placesText.innerHTML = `<p>Saul Goodman's business, the outside at least, was recorded in front of Hooligan's Tavern, when you visit it now, you can can grab a beer and pay homage to the sleaziest lawyer in the Southwest. This was where the exterior of Saul's office was shot.</p>`;
         placesImage.innerHTML = `<img
-        src="https://static.wikia.nocookie.net/breakingbad/images/0/07/SaulOffice.png"
+        src="https://www.breakingbad-locations.com/wp-content/uploads/2014/09/E08-Better-Call-Saul.mkv_001394657.jpg"
         alt="Better Caul Saul's Office" class="placesImage">`;
     } else if (menu.value == '3') {
         marker10.remove();
@@ -206,7 +206,7 @@ function selectPlace(menu) {
         placesText.innerHTML = `<p>The manager of local burrito joint Twisters counts between 30 to 40 fans a day who pull up in cars and cabs, sometimes straight from the airport, all of them curious to meet the real-life Gus Fring.</p>
         <p>The popularity of Breaking Bad has been great for business, as interest in the restaurant has brought in extra customers and profit. Fans are excited to sit in the most coveted seat in the place: “Walt’s Booth." When you visit, be sure to have someone snap your picture next to the huge Los Pollos Hermanos mural.</p>`;
         placesImage.innerHTML = `<img
-        src="https://static.wikia.nocookie.net/breakingbad/images/6/67/Los_Pollos_Hermanos.png"
+        src="https://tr-images.condecdn.net/image/Ojnnx73agN3/crop/405/f/pollos-hermanos-gettyimages-179519949.jpg"
         alt="Twisters Restaurant" class="placesImage">`;
     } else if (menu.value == '10') {
         marker10.remove();
