@@ -37,9 +37,7 @@ function loadChars(cb) {
 
 // With the help of my mentor, Antonio, I've been able to solve the Random Quote image issue.
 function findCharactersImage(charName) {
-    console.log("Looking for ", charName);
     char = charactersArray.filter(function (character) {
-        console.log("compare ", character.name, charName, character.name.localeCompare(charName));
         return character.name.localeCompare(charName) === 0;
     });
     if (char[0]) {
@@ -47,7 +45,6 @@ function findCharactersImage(charName) {
         // End reference from my Mentor, below is what I wrote myself
     } else {
         char = charactersArray.filter(function (character) {
-            console.log("compare else name:", character.nickname, charName, character.nickname.localeCompare(charName));
             return character.nickname.localeCompare(charName) === 0;
         });
     }
