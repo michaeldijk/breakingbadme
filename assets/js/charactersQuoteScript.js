@@ -1,4 +1,5 @@
 // empty variables, to be used later onwards & default variables...
+// My mentor helped me find a solution to avoid reloading the API data each time, and this was loading the data into Arrays.
 let charactersArray = [];
 let quotesArray = [];
 let char;
@@ -9,6 +10,7 @@ const quotesJsInsert = document.getElementById("quotesJsInsert");
 const charactersJsInsert = document.getElementById("charactersJsInsert");
 
 // Load quotes from BreakingBadAPI.com, and store them inside QuotesArray to work from later
+// My mentor helped me find a solution to avoid reloading the API data each time, and this was loading the data into Arrays.git
 function loadQoutes() {
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "https://www.breakingbadapi.com/api/quotes");
@@ -21,6 +23,7 @@ function loadQoutes() {
 }
 
 // Load Characters from BreakingBadAPI.com, and store them inside charactersArray to work from later
+// Mentor Antonio Rodriquez helped me find this solution
 function loadChars(cb) {
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "https://www.breakingbadapi.com/api/characters");
