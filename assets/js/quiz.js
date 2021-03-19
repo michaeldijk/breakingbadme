@@ -283,6 +283,7 @@ function checkAnswer(answer) {
     if (answer == randomQuestion.rightAnswer) {
         adjustScore(true);
         btnProvideQuestion();
+        document.getElementById("correctOrNotValue").innerHTML = "";
 
         if (currentScore === 10) {
             document.getElementById("looseEndGame").innerHTML = `<h1>You have Won!</h1> <br> <button class="btn btnLightDarkstyle" onclick="init()">Play Again</button>`;
