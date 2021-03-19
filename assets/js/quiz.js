@@ -273,7 +273,6 @@ function adjustScore(isCorrect) {
     } else {
         if (currentScore > 0) {
             currentScore -= difficulty;
-            console.log(currentScore);
         }
     }
     document.getElementById("score").innerHTML = currentScore;
