@@ -43,8 +43,8 @@ It has two different views, lightmode and darkmode, see mockups below:
     * [JavaScript](https://github.com/michaeldijk/breakingbadme#javascript)
     * [Unsolved issues](https://github.com/michaeldijk/breakingbadme#unsolved-issues)
 * [Version Control](https://github.com/michaeldijk/breakingbadme#version-control)
-* [Project barriers & Solutions](https://github.com/michaeldijk/breakingbadme#version-control)
-    * [Project barriers & Solutions - General](https://github.com/michaeldijk/breakingbadme#version-control)
+* [Project barriers & Solutions](https://github.com/michaeldijk/breakingbadme#project-barriers--solutions)
+    * [Project barriers & Solutions - General](https://github.com/michaeldijk/breakingbadme#project-barriers--solutions---general)
 * [Deployment](https://github.com/michaeldijk/breakingbadme#deployment)
 * [How to run this project locally](https://github.com/michaeldijk/breakingbadme#how-to-run-this-project-locally)
 * [Credits](https://github.com/michaeldijk/breakingbadme#credits)
@@ -395,7 +395,7 @@ This is how I attacked all my scripts, and, tested and re-run them multiple inst
 #### Unsolved Issues
 * No unsolved issues at present.
 
-#### Project barriers & Solutions
+### Project barriers & Solutions
 * I had some issues how to go over different backgrounds, with the two style options that I created. Together with the help of [Stack overflow](https://stackoverflow.com/questions/31277685/change-background-image-of-a-div-everytime-page-refresh) - I was able to implement this into my site. I then added an if else statement to find out if it was either on light theme or dark theme, and then adjusted the images accordingly.
 * I also didn't fully understand the use of localStorage, but with the help of [Prototypr Blog](https://developer.mozilla.org/en-US/) - I was albe to understand how to implement this option, and adjusted it accordingly. 
 * I created some interfaces that worked together with [The Breaking Bad API](https://breakingbadapi.com//) - At first, I was constantly reloading the API and it's array's, but with the help of my Mentor, I was able to tackle this, and save it into array's and work from those array's instead
