@@ -391,7 +391,7 @@ I then knew, my code worked, because it outputted a "0" for value matching, on e
 This is how I attacked all my scripts, and, tested and re-run them multiple instances, and console logged them fully, until I understood the correct handling of my code, and, was happy with the results, before removing any remaining `console.log()` statements.
 
 #### Unsolved Issues
-
+* No unsolved issues at present.
 
 ### Version Control
 [Git](https://git-scm.com/) was used as local repository, and [GitHub](https://github.com/) as a remote repository.
